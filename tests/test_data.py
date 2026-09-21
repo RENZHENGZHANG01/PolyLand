@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class DataLineageTests(unittest.TestCase):
-    def test_processed_counts_and_corrected_ch4(self) -> None:
+    def test_processed_counts_and_ch4_statistics(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
             build_processed_tables(ROOT / "data" / "raw", output)
@@ -49,4 +49,3 @@ class DataLineageTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
