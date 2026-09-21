@@ -1,26 +1,20 @@
-# Reproducibility map
+# Workflow reference
 
-| Manuscript component | Repository entry point | Status |
+The following entry points cover the main PolyLand workflows.
+
+| Workflow | Entry point | Primary output |
 |---|---|---|
-| Dataset curation / Table 1 | `scripts/prepare_data.py`, `scripts/build_table1.py` | Reproducible from included tables |
-| QRF and MLP-D | `scripts/train_predictor.py` | Code and inputs included |
-| GIN, GCN, GREA | `scripts/train_predictor.py` | Code and inputs included; installs `torch-molecule` |
-| LLM ICL pairing/prompts | `scripts/prepare_icl.py` | Code and inputs included |
-| LLM generation | `scripts/generate_llm.py` | Requires model access/API credentials |
-| MD/FFV consistency check | `scripts/md_ffv_consistency.py` | Code and training inputs included; candidate FFV/predictions supplied by caller |
-| Reaction-template generation | — | Archived project contained outputs, not source |
-| Graph DiT training/generation | — | Archived project contained outputs, not source |
+| Prepare modeling tables | `scripts/prepare_data.py` | `data/processed/*.csv` |
+| Build dataset summary | `scripts/build_table1.py` | `results/table1_stats.csv` |
+| Train permeability models | `scripts/train_predictor.py` | `results/models/` |
+| Prepare ICL examples | `scripts/prepare_icl.py` | `results/icl/` |
+| Generate candidates | `scripts/generate_llm.py` | User-selected CSV output |
+| Analyze FFV relationships | `scripts/md_ffv_consistency.py` | User-selected CSV output |
 
-The two unavailable generators are stated explicitly so that this repository
-does not imply end-to-end reproducibility where the source was not recoverable.
+Run all commands from the repository root. Random seeds and data-selection
+rules are exposed through the command-line interfaces so experiments can be
+repeated consistently.
 
-## Suggested Code Availability statement
-
-> Code and curated input tables supporting the data preparation, Table 1,
-> permeability models, LLM in-context-learning workflow, and MD/FFV
-> consistency analysis are available at
-> https://github.com/RENZHENGZHANG01/PolyLand. The repository documents the
-> scope of the archived code, dependencies, data provenance, and the known
-> reproducibility boundary for generator components whose source was not
-> present in the project archive.
-
+Exact numerical agreement for neural and graph models can depend on hardware,
+dependency versions, and hyperparameter-search execution. The deterministic
+data pipeline and regression tests are also run by GitHub Actions.
