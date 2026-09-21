@@ -99,11 +99,9 @@ def build_processed_tables(raw_dir: str | Path, output_dir: str | Path) -> dict[
     paired = ladder_merged.dropna(subset=["N2", "CH4"])
     if len(paired) and np.allclose(paired["N2"], paired["CH4"]):
         raise ValueError(
-            "Ladder N2 and CH4 are identical; this indicates the historical "
-            "copy/paste contamination rather than the curated source values."
+            "Ladder N2 and CH4 are unexpectedly identical; verify the input tables."
         )
 
     written = _write_gas_tables(linear_merged, "linear", output_dir)
     written.update(_write_gas_tables(ladder_merged, "ladder", output_dir))
     return written
-

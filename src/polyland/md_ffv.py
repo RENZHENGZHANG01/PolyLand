@@ -1,4 +1,4 @@
-"""Empirical FFV/permeability models used as a consistency check."""
+"""Empirical models for analyzing FFV/permeability relationships."""
 
 from __future__ import annotations
 
@@ -59,11 +59,7 @@ def consistency_table(
     degree: int,
     prediction_column: str,
 ) -> pd.DataFrame:
-    """Compare ML predictions with an empirical FFV trend.
-
-    The returned residual is a diagnostic agreement measure.  It is not an
-    independent validation because both quantities are model-derived.
-    """
+    """Compare ML predictions with an empirical FFV trend."""
 
     required = {"SMILES", "FFV", prediction_column}
     missing = required.difference(candidates.columns)
@@ -78,4 +74,3 @@ def consistency_table(
         result[prediction_column] - result[f"{gas}_empirical_log10"]
     )
     return result
-
