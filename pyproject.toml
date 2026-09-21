@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polyland"
+version = "0.1.0"
+description = "Reproducibility code and curated data for PolyLand ladder-polymer design"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Jiaxin Xu"},
+  {name = "Gang Liu"},
+  {name = "Agboola Suleiman"},
+  {name = "Renzheng Zhang"},
+  {name = "Ruilan Guo"},
+  {name = "Meng Jiang"},
+  {name = "Tengfei Luo"},
+]
+dependencies = [
+  "numpy>=1.22",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+ml = [
+  "joblib>=1.3",
+  "quantile-forest>=1.3",
+  "rdkit>=2023.9",
+  "scikit-learn>=1.3",
+]
+mlp = [
+  "tensorflow>=2.13",
+]
+graph = [
+  "torch>=2.1",
+  "torch-molecule",
+]
+llm = [
+  "accelerate>=0.27",
+  "openai>=1.0",
+  "transformers>=4.40",
+]
+dev = [
+  "pytest>=7.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

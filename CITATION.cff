@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the PolyLand manuscript."
+title: "PolyLand: ML-Powered Design of Ladder Polymers for Gas Separation"
+type: software
+version: 0.1.0
+date-released: 2026-09-21
+repository-code: "https://github.com/RENZHENGZHANG01/PolyLand"
+authors:
+  - family-names: Xu
+    given-names: Jiaxin
+  - family-names: Liu
+    given-names: Gang
+  - family-names: Suleiman
+    given-names: Agboola
+  - family-names: Zhang
+    given-names: Renzheng
+  - family-names: Guo
+    given-names: Ruilan
+  - family-names: Jiang
+    given-names: Meng
+  - family-names: Luo
+    given-names: Tengfei
+

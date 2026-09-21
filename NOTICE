@@ -1,0 +1,12 @@
+PolyLand includes predictive-model code adapted from POINT2 by Jiaxin Xu.
+The POINT2 source was distributed under the MIT License; its original
+copyright notice is retained in LICENSE.
+
+The CSV files collect measurements and metadata from third-party literature.
+The code license does not grant additional rights to the underlying published
+data. See data/README.md and the PolyLand manuscript for source citations.
+
+Third-party Python packages, models, and model weights remain subject to their
+own licenses and terms. No API keys, access tokens, pretrained checkpoints, or
+model weights are included in this repository.
+

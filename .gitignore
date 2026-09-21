@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.env
+.venv/
+venv/
+.pytest_cache/
+
+# Generated model artifacts and large intermediate files
+results/models/
+results/icl/
+results/llm/
+*.pkl
+*.pt
+*.keras
+*.npy
+*.log
+
