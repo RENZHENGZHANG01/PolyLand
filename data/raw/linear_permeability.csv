@@ -1,0 +1,839 @@
+PID,Type,SMILES,H2,CO2,O2,N2,CH4
+Perm1,Polynorbornenes,*\C=C\C1CCC(*)C1,21.0,15.4,2.8,1.5,2.5
+Perm139,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,,4.3,1.1,0.196,0.179
+Perm2,Substituted Polyacetylenes,*C(=C(*)C1=CC2=C(C=C1)C1=C(C2)C=CC=C1)C1=CC=CC=C1,3650.0,8500.0,2150.0,1300.0,2400.0
+Perm3,Substituted Polyacetylenes,*C(=C(*)C1=CC2=C(C=C1)C1=C(C=CC=C1)C=C2)C1=CC=CC=C1,2500.0,5300.0,1300.0,650.0,1450.0
+Perm4,Substituted Polyacetylenes,*C(=C(*)C1=CC=C(C=C1)C1=CC=CC=C1)C1=CC=CC=C1,440.0,1300.0,180.0,65.0,170.0
+Perm5,Substituted Polyacetylenes,*C(=C(*)C1=CC=C(C=C1)[Si](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1,51.7,78.8,12.1,2.78,5.58
+Perm6,Substituted Polyacetylenes,*C(=C(*)C1=CC=C2C3=C(C=CC=C3)C3(CC3)C2=C1)C1=CC=CC=C1,1400.0,3200.0,660.0,400.0,810.0
+Perm7,Substituted Polyacetylenes,*C(=C(*)C1=CC=C2CCCC2=C1)C1=CC=CC=C1,360.0,390.0,86.0,30.0,60.0
+Perm8,Substituted Polyacetylenes,*C(=C(*)C1=CC=CC=C1)C1=CC=CC=C1,,6600.0,3600.0,2720.0,3700.0
+Perm9,Poly(aryl ethers) and Poly(aryl ether ketones),*C(=O)C1=CC=C(C=C1)C1(OC(=O)C2=C1C=CC=C2)C1=CC=C(C=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C(=O)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,7.5,2.14,0.51,0.0729,0.069
+Perm10,Poly(aryl ethers) and Poly(aryl ether ketones),*C(=O)C1=CC=C(C=C1)C1(OC(=O)C2=C1C=CC=C2)C1=CC=C(C=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,9.2,3.1,0.68,0.0986,0.1
+Perm11,Poly(aryl ethers) and Poly(aryl ether ketones),*C(=O)C1=CC=C(C=C1)C1(OC(=O)C2=C1C=CC=C2)C1=CC=C(C=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=CC(=C2)C(=O)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,5.3,0.91,0.27,0.031,0.0276
+Perm12(ladder),High Temperature Polymers,*C(=O)N1C(*)=NC2=C1C=C1N3C(=NC1=C2)C1=CC=C(*)C2=C1C(=CC=C2*)C3=O,,0.12,0.021,0.00259,0.0017
+Perm13,Polyimides and Polypyrrolones,*C1=CC(C(=O)C2=CC=CC=C2)=C(*)C=C1,27.37,14.16,2.99,0.4,0.36
+Perm14,Polyimides and Polypyrrolones,*C1=CC2=C(C=C1)C1=NC3=C(C=C(OC4=CC5=C(C=C4)N4C(=O)C6=C(C=C(*)C=C6)C4=N5)C=C3)N1C2=O,6.56,,0.24,0.023,
+Perm15,Polyimides_NEW,*C1=CC2=C(OC3=CC(=CC=C3O2)C2(C3=C(C=CC=C3)C3=C2C=CC=C3)C2=CC3=C(OC4=C(O3)C=CC(*)=C4)C=C2)C=C1,,26.64,5.68,1.04,0.56
+Perm16,High Temperature Polymers,*C1=CC2C(C=C1)C(=O)N(C2=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(*)C=C3C2=O)C=C1,14.3,2.7,0.72,0.09,0.03
+Perm17,Polyimides_NEW,*C1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(*)C=C1,,35.57,6.8,1.36,0.84
+Perm18,High Temperature Polymers,*C1=CC=C(C=C1)C1(OC(=O)C2=CC=CC=C12)C1=CC=C(*)C=C1,74.0,72.0,11.0,2.391,2.88
+Perm19,Polyimides_NEW,*C1=CC=C(OC2=CC=C(C=C2)C(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,,9.57,2.26,0.47,0.14
+Perm20,Polyimides_NEW,*C1=CC=C(OC2=CC=C(C=C2)C2(C3C=CC=CC3C3C=CC=CC23)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,,17.22,3.48,0.66,0.45
+Perm21,Polysulfones,*C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(OC3=CC=C(C=C3)S(*)(=O)=O)C=C2)C=C1,8.35,2.88,0.83,0.13,0.13
+Perm22,Polyimides_NEW,*C1=CC=C(OC2=CC=C(OC3=CC=C(*)C=C3)C3=C2C2C4=C(C=CC=C4)C3C3=C2C=CC=C3)C=C1,,13.49,3.4,0.58,0.21
+Perm23,High Temperature Polymers,*C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=C(C=C(C=C3)C3=NC4=C(C=C(CC5=CC=C6N=C(*)OC(=O)C6=C5)C=C4)C(=O)O3)C2=O)C=C1,2.56,0.26,0.082,0.0053,
+Perm24,High Temperature Polymers,*C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(=N2)C2=CC=C(*)C=C2)C=C1,0.16,,0.004,,
+Perm25,High Temperature Polymers,*C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(=N2)C2=CC=CC(*)=C2)C=C1,0.615,0.16,0.015,0.0048,0.0018
+Perm26,High Temperature Polymers,*C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(=N2)C2=CC=CC(*)=N2)C=C1,1.38,,0.045,,
+Perm27,High Temperature Polymers,*C1=NN=C(N1C1=CC=CC=C1)C1=CC(*)=CC=C1,,2.7,0.52,0.09,0.0491
+Perm28,High Temperature Polymers,*C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(=N2)C2=CC=C(*)C=C2)C=C1,,5.2,1.16,0.14,0.09
+Perm29,Polyimides and Polypyrrolones,*C1C(*)C2=NC3=C(C=CC(OC4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=CC(*)=C5)=C3)N2C1=O,5.06,,0.14,0.013,
+Perm30,Vinyl and Vinylidene Polymers,*CC(*)C#N,,0.0018,0.00028,0.00016,
+Perm31,Vinyl and Vinylidene Polymers,*CC(*)C1=CC=CC=C1,26.15,12.4,2.9,0.53,0.785
+Perm32,Vinyl and Vinylidene Polymers,*CC(*)C1=CC=NC=C1,12.64,3.31,0.84,0.13,0.14
+Perm33,Polyimides and Polypyrrolones,*CC(*)N1CCCC1=O,,,,,
+Perm34,Vinyl and Vinylidene Polymers,*CC(*)OC(=C)C1CCCCC1,,8.3,2.2,0.447,
+Perm35,Vinyl and Vinylidene Polymers,*CC(*)OC(=O)C1=CC=CC=C1,,6.32,,,
+Perm36,Vinyl and Vinylidene Polymers,*CC(*)OC1C2CC3CC(C2)CC1C3,,25.2,6.01,1.69,
+Perm37,Vinyl and Vinylidene Polymers,*CC(*)OC1CC2CC1C1CCCC21,,12.6,3.06,1.2,
+Perm38,Vinyl and Vinylidene Polymers,*CC(*)OC1CC2CCC1C2,,25.0,3.55,0.96,
+Perm39,Vinyl and Vinylidene Polymers,*CC(*)OC1CCCCC1,,13.6,3.69,0.99,
+Perm40,Vinyl and Vinylidene Polymers,*CC(*)OCC1=CC=CC=C1,,11.1,2.33,0.79,
+Perm41,Vinyl and Vinylidene Polymers,*CC(*)OCC1CC2CC1C1CCCC21,,2.85,0.81,0.13,
+Perm42,Vinyl and Vinylidene Polymers,*CC(*)OCC1CCCCC1,,5.89,1.55,0.4,
+Perm43,Polyolefins,*CC*,,7.315,0.735,0.2375,3.85
+Perm44,Parylenes,*CC1=CC=C(C*)C(=C1)C#N,1.78,0.301,0.0904,,
+Perm45,Parylenes,*CC1=CC=C(C*)C=C1,3.2,1.3,0.235,0.047,
+Perm46,Vinyl and Vinylidene Polymers,*CC1CC(*)OCO1,0.93,,0.024,0.018,
+Perm47,Polyolefins,*CCCC*,,48.4,11.3,4.0,13.0
+Perm48,Hydrocarbon Elastomers,*CCCC=C*,415.0,2000.0,310.0,100.0,430.0
+Perm49,Various Polymers,*CCCCCC\C=C\*,,,,,
+Perm50,Thermally Rearranged Polymers,*CCCCO*,36.0,170.0,21.5,8.85,22.5
+Perm51,Thermally Rearranged Polymers,*CCO*,6.9,40.5,4.34,1.325,4.85
+Perm52,Polyesters,*CCOC(=O)C1=CC2=CC=C(C=C2C=C1)C(=O)O*,,0.1305,0.01315,,
+Perm53,Polyesters,*CCOC(=O)C1=CC=C(C=C1)C(=O)O*,,0.173,0.045,0.013,3.0
+Perm54,Hydrocarbon Elastomers,*CCSS*,1.57,3.14,0.288,,
+Perm55(ladder),Polymers with High Free Volume,*CN1CN(*)CC2=CC3=C(C=C12)C1C2=CC=CC=C2C3C2=C1C=C(*)C(*)=C2,6389.5,6830.0,1895.5,409.0,561.5
+Perm56(ladder),Polymers with High Free Volume,*CN1CN(*)CC2=CC3=CC4C5CC(C4C=C3C=C12)C1=CC2=C(C=C51)C=C1N(C*)CN(*)CC1=C2,1955.0,1486.5,391.0,73.2,92.0
+Perm57,Various Polymers,*CO*,,0.45,0.09,0.024,
+Perm58,Hydrocarbon Elastomers,*C\C=C/C*,41.9,138.0,19.0,15.76,
+Perm59,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C(OC3=CC=CC=C3)=C2)C2=C(OC3=CC=CC=C3)C=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C1=O,,29.0,3.36,0.73,0.85
+Perm60,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C(OC3=CC=CC=C3)=C2)C2=C(OC3=CC=CC=C3)C=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,,30.1,3.59,0.83,0.85
+Perm61,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC(*)=CC=C2)C1=O,,0.428,0.112,0.016,0.0086
+Perm62,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC3=C(C=C2)C2C=CC(*)=CC2C3=O)C1=O,1.75,0.1,,,
+Perm63,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C1=O,4.03,,0.211,0.02,
+Perm64,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,3.59,,0.17,0.012,
+Perm65,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C1=O,,1.75,0.348,0.0499,0.0399
+Perm66,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C1=O,3.6,1.0,0.188,0.0221,0.0205
+Perm67,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,3.315,1.2,0.1745,0.0215,0.026
+Perm68,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(C=C3)S(=O)(=O)C3=CC=C(OC4=CC=C(*)C=C4)C=C3)C=C2)C1=O,,1.85,0.368,0.0544,0.0397
+Perm69,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(OC4=CC=C(OC5=CC=C(*)C=C5)C=C4)C=C3)C=C2)C1=O,,1.25,0.256,0.0392,0.0305
+Perm70,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(SC3=CC=C(*)C=C3)C=C2)C1=O,,0.774,,0.022,0.0164
+Perm71,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)S(=O)(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C1=O,6.32,,0.296,0.032,
+Perm72,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(C=C2)S(=O)(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,5.61,,0.2,0.027,
+Perm73,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(OC3=CC=C(OC4=CC=C5C(=O)N(C(=O)C5=C4)C4=CC=C(CC5=CC=C(*)C=C5)C=C4)C=C3)C=C2)C1=O,5.08,,0.242,0.036,
+Perm74,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(OC3=CC=C(OC4=CC=C5C(=O)N(C(=O)C5=C4)C4=CC=C(OC5=CC=C(*)C=C5)C=C4)C=C3)C=C2)C1=O,4.0,,0.216,0.034,
+Perm75,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(OC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC(*)=CC=C3)C=C2)C1=O,,0.301,0.081,0.012,0.0064
+Perm76,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(OC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=C(CC4=CC=C(*)C=C4)C=C3)C=C2)C1=O,5.62,,0.261,0.028,
+Perm77,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(OC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=C(OC4=CC=C(*)C=C4)C=C3)C=C2)C1=O,4.77,,0.183,0.026,
+Perm78,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(SC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=C(CC4=CC=C(*)C=C4)C=C3)C=C2)C1=O,5.43,,0.246,0.027,
+Perm79,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C(SC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=C(OC4=CC=C(*)C=C4)C=C3)C=C2)C1=O,4.68,,0.198,0.021,
+Perm80,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C3C(=C2)S(=O)(=O)C2=C(C=C4C(=O)N(C(=O)C4=C2)C2=CC=C(OC4=CC=C(*)C=C4)C=C2)S3(=O)=O)C1=O,19.0,9.6,1.6,0.27,0.18
+Perm81,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C1=O,6.61,2.495,0.398,0.069,0.05765
+Perm82,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,4.445,1.92,0.358,0.05395,0.04275
+Perm83,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C3C(=O)N(C(=O)C3=C2)C2=CC=CC(OC3=CC(*)=CC=C3)=C2)C1=O,3.6,0.5,0.13,0.0181,0.008
+Perm84,Polyimides and Polypyrrolones,*N1C(=O)C2=C(C=C3SC4=C(SC3=C2)C=C2C(=O)N(C(=O)C2=C4)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C1=O,11.0,4.0,0.74,0.11,0.082
+Perm85,Polyimides and Polypyrrolones,*N1C(=O)C2=CC3=C(C=C2C1=O)C(=O)N(C3=O)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,10.6,3.55,0.825,0.145,0.0937
+Perm86,Polyimides and Polypyrrolones,*N1C(=O)C2=CC3=C(C=C2C1=O)C(=O)N(C3=O)C1=CC=CC(OC2=CC=C(*)C=C2)=C1,5.92,1.149,0.31,0.0454,0.0258
+Perm87,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,4.79,0.625,0.191,0.0236,0.0109
+Perm88,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(C=C2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)S(=O)(=O)C1=CC=C(*)C=C1,11.3,2.57,,,0.085
+Perm89,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(C=C2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(CC2=CC=C(*)C=C2)C=C1,9.1,2.17,,,0.086
+Perm90,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(C=C2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,3.68,0.642,,,0.0099
+Perm91,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(OC3=CC=C(OC4=CC5=C(C=C4)C(=O)N(C5=O)C4=CC=C(CC5=CC=C(*)C=C5)C=C4)C=C3)C=C2C1=O,5.08,1.22,0.242,0.0355,0.0222
+Perm92,Polyimides and Polypyrrolones,*N1C(=O)C2=CC=C(OC3=CC=C(OC4=CC5=C(C=C4)C(=O)N(C5=O)C4=CC=CC(*)=C4)C=C3)C=C2C1=O,3.75,0.598,0.149,0.016,
+Perm93,Polyimides and Polypyrrolones,*N1C(=O)C2C=C3C(=O)N(C(=O)C3=CC2C1=O)C1=CC(OC2=CC(*)=CC=C2)=CC=C1,3.6,0.5,0.13,0.018,0.008
+Perm94,Polyimides and Polypyrrolones,*N1C(=O)C2C=CC(=CC2C1=O)C(=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)N(C1=CC=CC=C1)C1=CC=C(*)C=C1,12.7,3.3,0.86,0.144,0.093
+Perm95,Polyimides and Polypyrrolones,*N1C(=O)C2C=CC(=CC2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)N(C1=CC=CC=C1)C1=CC=C(*)C=C1,14.7,4.7,1.19,0.196,0.165
+Perm96,Polyimides and Polypyrrolones,*N1C(=O)C2C=CC(=CC2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)S(=O)(=O)C1=CC=C(*)C=C1,8.8,2.13,0.5,0.069,0.035
+Perm97,Polyimides and Polypyrrolones,*N1C(=O)C2C=CC(=CC2C1=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(CC2=CC=C(*)C=C2)C=C1,6.5,1.6,,,0.039
+Perm98,Polyimides and Polypyrrolones,*N1C(=O)C2C=CC(OC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=C(C=C3)N(C3=CC=CC=C3)C3=CC=C(*)C=C3)=CC2C1=O,11.6,2.88,0.76,0.117,0.085
+Perm99,Polyphosphazenes,*N=P(*)(OC1=CC=CC=C1)OC1=CC=CC=C1,7.5,11.0,2.11,1.3,1.3
+Perm100,Polyamides and poly(amide-imides),*NC(=O)C1=CC(=CC=C1)C(=O)NC1=CC=C(C=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC=C(*)C=C1,,5.3,1.2,0.197,0.128
+Perm101,Polyamides and poly(amide-imides),*NC(=O)C1=CC=C(C=C1)C(=O)NC1=CC=C(C=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC=C(*)C=C1,,15.3,3.0,0.517,0.548
+Perm102,Conjugated Polymers (excl. subst. acetylenes/propynes),*NC1=CC=C(*)C=C1,3.66,0.67,0.135,0.0165,0.0094
+Perm103,Polyamides and poly(amide-imides),*NC1=CC=C(C=C1)C(=O)C1=CC=C(NC(=O)C2=CC=CC(=C2)C(*)=O)C=C1,,0.32,0.069,,
+Perm104,Polyamides and poly(amide-imides),*NC1=CC=C(C=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC=C(NC(=O)CN2C(=O)C3=CC=C(C=C3C2=O)C(*)=O)C=C1,,1.539,0.347,0.064,0.017
+Perm105,Polyamides and poly(amide-imides),*NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(NC(=O)C2=CC(=CC(=C2)C2=CC=CC=C2)C(*)=O)C=C1,7.6,3.2,0.75,0.13,0.11
+Perm106,Polyamides and poly(amide-imides),*NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(NC(=O)C2=CC(=CC=C2)C(*)=O)C=C1,4.3,0.78,0.19,0.031,0.014
+Perm107,Polyamides and poly(amide-imides),*NC1=CC=C(CC2=CC=C(NC(=O)CN3C(=O)C4=CC=C(C=C4C3=O)C(*)=O)C=C2)C=C1,,0.264,0.065,0.017,0.01
+Perm108,Polyamides and poly(amide-imides),*NC1=CC=C(OC2=CC=C(OC3=CC=C(NC(=O)CN4C(=O)C5=CC=C(C=C5C4=O)C(*)=O)C=C3)C=C2)C=C1,,0.749,0.185,0.02,0.015
+Perm109,Polyamides and poly(amide-imides),*NCCCCCC(*)=O,,0.165,0.036,,
+Perm110,Polyamides and poly(amide-imides),*NCCCCCCCCCCC(*)=O,2.63,1.0,,,
+Perm111,Polycarbonates,*OC(=O)OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(*)C=C1,,15.1,3.18,0.592,0.581
+Perm112,Polycarbonates,*OC(=O)OC1=CC=C(C=C1)C1(CC2CCC1C2)C1=CC=C(*)C=C1,22.0,9.1,2.4,0.47,0.48
+Perm113,Polycarbonates,*OC(=O)OC1=CC=C(C=C1)C1(CCCCC1)C1=CC=C(*)C=C1,9.1,2.2,0.6,0.105,0.092
+Perm114,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=C(C=C(*)C=C1C1=CC=CC=C1)C1=CC=CC=C1,28.0,39.9,7.7,1.5,2.7
+Perm115,Polysulfones,*OC1=C2C=CC=C(OC3=CC=C(C=C3)S(=O)(=O)C3=CC=C(*)C=C3)C2=CC=C1,,1.6,0.42,0.057,0.036
+Perm116,Polyimides and Polypyrrolones,*OC1=CC2=C(C=C1)C(=O)N1C3=C(C=C(OC4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=CC(*)=C5)C=C3)N=C21,6.88,,0.22,0.026,
+Perm117,High Temperature Polymers,*OC1=CC2=C(C=C1)N=C(C1=CC=CC=C1)C(=N2)C1=CC=C(C=C1)C1=NC2=C(C=CC(*)=C2)N=C1C1=CC=CC=C1,17.2,,1.97,3.44,
+Perm118(ladder),Polymers with High Free Volume,*OC1=CC2=C(C=C1O*)C1(C3=C2C=CC=C3)C2=C(C=CC=C2)C2=C1C=C1OC3=C(OC1=C2)C(C#N)=C(*)C(*)=C3C#N,5780.0,12150.0,2295.0,670.0,927.0
+Perm119,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C(=O)C2=CC=C(OC3=CC=C(C=C3)C3(C4C=CC=CC4C4C=CC=CC34)C3=CC=C(*)C=C3)C=C2)C2=C1C=CC=C2,,4.97,1.42,0.222,0.192
+Perm120,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C(=O)C1=CC(=CC=C1)C1=CC(=CC=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)C2(C3C=CC=CC3C3C=CC=CC23)C2=CC=C(*)C=C2)C=C1,,1.87,0.53,0.0639,0.055
+Perm121,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C(=O)C1=CC=C(C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,8.38,3.27,0.64,0.11,0.12
+Perm122,Polyarylates,*OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C1,,20.1,3.92,0.64,0.71
+Perm123,Polysulfones,*OC1=CC=C(C=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,,13.8,2.76,0.484,0.531
+Perm124,Polysulfones,*OC1=CC=C(C=C1)C1(C2CC3CC(C2)CC1C3)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,17.3,7.2,1.86,0.332,0.327
+Perm125,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C1(NC(=O)C2C=CC=CC12)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,9.91,2.36,0.663,0.0921,0.069
+Perm126,Uncategorised,*OC1=CC=C(C=C1)C1(OC(=O)C2=C1C=CC=C2)C1=CC=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C1,19.7,9.0,2.05,0.342,0.334
+Perm127,Polysulfones,*OC1=CC=C(C=C1)C1(OC(=O)C2=C1C=CC=C2)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,10.05,5.74,1.2,0.17,0.143
+Perm128,Polyarylates,*OC1=CC=C(C=C1)C1(OC(=O)C2=CC=CC=C12)C1=CC=C(OC(=C)C2=CC=C(C=C2)C2=CC=C(C=C2)C(*)=O)C=C1,10.4,6.91,1.6,0.282,0.365
+Perm129,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C1(OC(=O)C2C=CC=CC12)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,11.7,2.73,0.951,0.153,0.0822
+Perm130,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C1(OC(=O)C2C=CC=CC12)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,7.51,2.17,0.634,0.0728,0.0564
+Perm131,Polysulfones,*OC1=CC=C(C=C1)C12CC3CC(C1)CC(C3)(C2)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,27.8,9.5,2.55,0.455,0.396
+Perm132,Polysulfones,*OC1=CC=C(C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,28.0,5.6,1.3,0.24,0.25
+Perm133,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(C=C1)C1=NN(C(=O)C2C=CC=CC12)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,,,0.75,0.11,0.042
+Perm134,Polysulfones,*OC1=CC=C(C=C1)C1=NN(C2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(=O)C2=C1C=CC=C2,2.4,0.92,0.15,0.027,
+Perm135,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC3=CC(*)=CC=C3C=C2)C=C1,8.15,1.8,0.5,0.0735,0.05
+Perm136,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC3=CC=C(*)C=C3C=C2)C=C1,7.25,1.5,0.38,0.0507,0.0366
+Perm137,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC=C(C=C2)C2(C3=C(C=CC=C3)C3=C2C=CC=C3)C2=CC=C(*)C=C2)C=C1,,13.8,2.76,0.484,0.531
+Perm138,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC=C(C=C2)C2=CC=C(*)C=C2)C=C1,,5.6,1.3,0.236,0.255
+Perm140,Polysulfones,*OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(OC2=CC=CC3=C(*)C=CC=C23)C=C1,8.1,1.6,0.42,0.0568,0.0364
+Perm141(ladder),Polymers with High Free Volume,*OC1=CC=C(C=C1O*)C1=C(C2=CC=C(C=C2)C#N)C(C2=CC=C(C=C2)C#N)=C(C2=CC=C3OC4=C(OC3=C2)C(C#N)=C(*)C(*)=C4C#N)C(C2=CC=C(C=C2)C#N)=C1C1=CC=C(C=C1)C#N,734.0,1300.0,205.0,52.0,93.0
+Perm142,Polyimides and Polypyrrolones,*OC1=CC=C(OC2=CC3=C(C=C2)C(=O)N2C4=C(C=C(OC5=CC6=C(C=C5)N=C5N6C(=O)C6=C5C=CC(*)=C6)C=C4)N=C32)C=C1,5.34,,0.23,0.036,
+Perm143,Poly(aryl ethers) and Poly(aryl ether ketones),*OC1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,,0.963,0.259,0.0398,0.0311
+Perm144,Polysulfones,*OC1=CC=C(OC2=CC=C(OC3=CC=C(C=C3)S(=O)(=O)C3=CC=C(*)C=C3)C=C2)C=C1,15.0,4.3,1.1,0.196,0.18
+Perm145,Polyesters,*OCCCCCC(*)=O,5.06,16.8,1.3215,0.59,1.57
+Perm146,Uncategorised,*SC1=CC=C(*)C=C1,,1.6,0.19,0.046,0.066
+Perm147,High Temperature Polymers,BrC1=C(C=CC(*)=C1)C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(*)=N2)C=C1,0.38,,0.006,,
+Perm148,Polyimides and Polypyrrolones,BrC1=CC(*)=CC=C1CC1=C(Br)C=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,,0.315,0.0923,0.0103,0.0054
+Perm149,Uncategorised,BrC1=CC(=CC(Br)=C1O*)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC(Br)=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C(Br)=C1,62.2,20.4,4.83,0.704,0.567
+Perm150,Uncategorised,BrC1=CC(=CC(Br)=C1O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC(Br)=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C(Br)=C1,27.1,8.34,1.96,0.282,0.206
+Perm151,Parylenes,BrC1=CC(C*)=CC=C1C*,0.452,0.036,0.0241,0.00061,
+Perm152,High Temperature Polymers,BrC1=CC(C2=NC3=C(N2)C=CC(=C3)C2=CC3=C(NC(*)=N3)C=C2)=C(Br)C=C1*,1.89,,0.07,,
+Perm153,Vinyl and Vinylidene Polymers,BrC1=CC=C(C=C1)C(*)C*,,8.5,1.9,0.32,0.48
+Perm154(ladder),Polymers with High Free Volume,BrC1=CC=C(C=C1)C1=C(C2=CC=C(Br)C=C2)C(C2=CC=C3OC4=C(OC3=C2)C(C#N)=C(*)C(*)=C4C#N)=C(C2=CC=C(Br)C=C2)C(C2=CC=C(Br)C=C2)=C1C1=CC=C(O*)C(O*)=C1,694.0,1430.0,203.0,54.0,102.0
+Perm155,Polyphosphazenes,BrC1=CC=C(OP(*)(OC2=CC=C(Br)C=C2)=N*)C=C1,,4.1,0.91,0.18,0.35
+Perm156,Vinyl and Vinylidene Polymers,CC(*)(C*)C#N,,0.0032,0.0012,,
+Perm157,Vinyl and Vinylidene Polymers,CC(*)(C*)C(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,82.0,130.0,30.0,15.0,14.0
+Perm158,Vinyl and Vinylidene Polymers,CC(*)(C*)C1=CC=CC=C1,,3.0,0.82,0.15,0.14
+Perm159,Polymers with High Free Volume,CC(*)=C(*)C1=CC=CC=C1,199.0,174.3,36.75,12.25,5.2
+Perm160,Polymers with High Free Volume,CC(*)=C(*)[Si](C)(C)C,15500.0,31900.0,12250.0,5650.0,14500.0
+Perm161,Polyolefins,CC(*)C*,,9.2,1.41,0.5,
+Perm162,Vinyl and Vinylidene Polymers,CC(=O)OC(*)C*,9.19,,0.488,,
+Perm163,Vinyl and Vinylidene Polymers,CC(=O)OC(*)CC(C*)(C#N)C#N,,,0.16,0.0138,
+Perm164,Vinyl and Vinylidene Polymers,CC(=O)OC1=CC=C(C=C1)C(*)C*,,16.3,3.1,0.64,0.99
+Perm165,Polyimides_NEW,CC(=O)OC1=CC=C2C=C(C=CC2=C1C1=C(OC(C)=O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C1=O,4.67,3.55,0.92,0.15,0.08
+Perm166,Polyimides_NEW,CC(=O)OC1=CC=C2C=C(C=CC2=C1C1=C(OC(C)=O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,6.56,5.05,1.19,0.23,0.12
+Perm167,Polyimides_NEW,CC(=O)OC1=CC=C2C=C(C=CC2=C1C1=C(OC(C)=O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(OC3=CC4=C(C=C3)C(=O)N(*)C4=O)C=C2)C1=O,3.18,2.38,0.61,0.1,0.05
+Perm168,Cellulosic Polymers,CC(=O)OC1C(*)C(COC(=O)NC(C)(C)C)OC(O*)C1OC(C)=O,31.0,28.5,4.3,0.98,1.4
+Perm169,Cellulosic Polymers,CC(=O)OC1OC(O*)C(OC(C)=O)C(O)C1*,12.0,3.5,0.735,0.14,0.15
+Perm170,Cellulosic Polymers,CC(=O)OC1OC(O*)C(OC(C)=O)C(OC(C)=O)C1*,15.5,6.56,1.46,0.23,0.2
+Perm171,Hydrocarbon Elastomers,CC(C)(*)C*,13.3,,2.89,0.76,
+Perm172,High Temperature Polymers,CC(C)(C)C1=CC(*)=CC(=C1)C1=NC2=C(C=CC(=C2)C2=CC3=C(C=C2)N(C(*)=N3)[Si](C)(C)C)N1C[Si](C)(C)C,,,,,
+Perm173,High Temperature Polymers,CC(C)(C)C1=CC(*)=CC(=C1)C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(*)=N2)C=C1,10.68,1.91,0.42,0.06,0.05
+Perm174,Polyamides and poly(amide-imides),CC(C)(C)C1=CC(=CC(=C1)C(*)=O)C(=O)NC1=CC=C(C=C1)C(=O)C1=CC=C(N*)C=C1,,4.96,1.16,0.23,
+Perm175,Polyamides and poly(amide-imides),CC(C)(C)C1=CC(=CC(=C1)C(=O)NC1=CC=C(C=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC=C(*)C=C1)C(=O)N*,,37.7,8.0,1.404,1.545
+Perm176,Polyarylates,CC(C)(C)C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C(C)(C)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,53.95,21.5,5.63,0.89,0.853
+Perm177,Polyarylates,CC(C)(C)C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C(C1=CC(Br)=C(O*)C(Br)=C1)(C(F)(F)F)C(F)(F)F)C(*)=O,149.0,85.1,22.1,4.47,3.36
+Perm178,Polyarylates,CC(C)(C)C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,139.0,69.5,16.8,2.895,2.77
+Perm179,Uncategorised,CC(C)(C)C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C1(OC(=O)C2=C1C=CC=C2)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,67.4,30.6,7.41,1.19,1.09
+Perm180,Polyarylates,CC(C)(C)C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C1(OC(=O)C2C=CC=CC12)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,67.5,30.6,7.41,1.28,1.09
+Perm181,Polyphosphazenes,CC(C)(C)C1=CC(=CC(OP(Cl)(*)=NP(OC2=CC(=CC(=C2)C(C)(C)C)C(C)(C)C)(OC2=CC(=CC(=C2)C(C)(C)C)C(C)(C)C)=N*)=C1)C(C)(C)C,75.0,27.0,11.0,3.0,5.0
+Perm182,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C)C1=CC(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)=CC=C1O*,,4.65,1.39,0.217,0.221
+Perm183,Polyamides and poly(amide-imides),CC(C)(C)C1=CC(OC2=CC=C(C=C2)C(=O)NC2=CC=C(C=C2)C(C)(C)C2=CC=C(N*)C=C2)=C(C=C1OC1=CC=C(C=C1)C(*)=O)C(C)(C)C,,13.0,3.11,0.46,0.47
+Perm184,Polyamides and poly(amide-imides),CC(C)(C)C1=CC(OC2=CC=C(C=C2)C(=O)NC2=CC=C(C=C2)C(C2=CC=C(N*)C=C2)(C(F)(F)F)C(F)(F)F)=C(C=C1OC1=CC=C(C=C1)C(*)=O)C(C)(C)C,,36.0,7.88,1.51,1.24
+Perm185,Polyimides_NEW,CC(C)(C)C1=CC2=C(C=C1)C1=C(C=C(C=C1)C(C)(C)C)C2(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,,271.0,,14.1,14.6
+Perm186,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)S(O)(=O)=O,,340.0,45.0,11.0,
+Perm187,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(O)C=C1,340.0,530.0,82.0,23.0,46.0
+Perm188,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(O[Si](C)(C)C(C)(C)C)C=C1,1000.0,2300.0,470.0,210.0,540.0
+Perm189,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC(O)=C1,1700.0,3000.0,580.0,210.0,490.0
+Perm190,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC(O[Si](C)(C)C(C)(C)C)=C1,3900.0,7200.0,2100.0,1300.0,3300.0
+Perm191,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,,6200.0,1710.0,930.0,
+Perm192,Vinyl and Vinylidene Polymers,CC(C)(C)C1=CC=C(C=C1)C(*)C*,,140.05,35.5,8.4,16.7
+Perm193,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)C,1200.0,3300.0,620.0,250.0,730.0
+Perm194,Substituted Polyacetylenes,CC(C)(C)C1=CC=C(C=C1)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,455.0,1220.0,195.0,70.5,190.0
+Perm195,High Temperature Polymers,CC(C)(C)C1=CC=C(C=C1)N1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(C(=N2)C1=CC(=CC(*)=C1)C(C)(C)C)C1=CC=C(C=C1)C(C)(C)C,,,,,
+Perm196,High Temperature Polymers,CC(C)(C)C1=CC=C(C=C1)N1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(C(=N2)C1=CC=CC(*)=C1)C1=CC=C(C=C1)C(C)(C)C,,,,,
+Perm197,Polyimides and Polypyrrolones,CC(C)(C)C1=CC=C(OC2=CC3=C(C=C2C2=C(OC4=CC=C(C=C4)C(C)(C)C)C=C4C(=O)N(C(=O)C4=C2)C2=CC=C(OC4=CC=C(*)C=C4)C=C2)C(=O)N(*)C3=O)C=C1,,85.6,11.3,2.95,3.16
+Perm198,Polyphosphazenes,CC(C)(C)C1=CC=C(OP(*)(OC2=CC=C(C=C2)C(C)(C)C)=N*)C=C1,23.0,17.0,8.2,2.4,1.7
+Perm199,Polyphosphazenes,CC(C)(C)COP(*)(OCC(C)(C)C)=N*,65.7,48.7,15.4,3.46,7.51
+Perm200,Vinyl and Vinylidene Polymers,CC(C)(C)OC(=O)C(*)C(*)C(=O)OC1CCCCC1,72.0,,17.0,5.0,
+Perm201,Vinyl and Vinylidene Polymers,CC(C)(C)OC(=O)C(C)(*)C*,62.2,15.1,4.53,0.768,0.719
+Perm202,Conjugated Polymers (excl. subst. acetylenes/propynes),CC(C)(C)[Si](C)(C)C1=CC(*)=CC=C1\C=C\*,,26.0,6.5,1.5,
+Perm203,Substituted Polyacetylenes,CC(C)(C)[Si](C)(C)OC1=CC(=CC=C1)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)C,1600.0,2900.0,810.0,430.0,1100.0
+Perm204,Substituted Polyacetylenes,CC(C)(C)[Si](C)(C)OC1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)C,1500.0,3800.0,830.0,390.0,1100.0
+Perm205,Substituted Polyacetylenes,CC(C)(C)[Si](C)(C)OC1=CC=C(C=C1)C(*)=C(*)C1=CC=C(F)C=C1,315.0,800.0,140.0,55.0,140.0
+Perm206,Substituted Polyacetylenes,CC(C)(C)[Si](C)(C)OC1=CC=CC(=C1)C(*)=C*,64.0,58.0,17.0,7.6,12.0
+Perm207,Polysulfones,CC(C)(C1=CC(=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1)C(O)(C(F)(F)F)C(F)(F)F)C1=CC=C(*)C(=C1)C(O)(C(F)(F)F)C(F)(F)F,,5.4,1.5,0.22,
+Perm208,Polycarbonates,CC(C)(C1=CC(Br)=C(*)C(Br)=C1)C1=CC(Br)=C(OC(=O)O*)C(Br)=C1,43.0,4.215,1.43,0.191,0.123
+Perm209,Polyarylates,CC(C)(C1=CC(Br)=C(O*)C(Br)=C1)C1=CC(Br)=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C(Br)=C1,18.05,4.93,1.295,0.179,0.142
+Perm210,Polycarbonates,CC(C)(C1=CC(Cl)=C(*)C(Cl)=C1)C1=CC(Cl)=C(OC(=O)O*)C(Cl)=C1,,6.68,2.295,0.36,0.223
+Perm211,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC2C(C=C1)C(=O)N(C2=O)C1=CC=C(O*)C=C1)C1=CC=C2C(=C)N(C(=C)C2=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C3C(=C2)C(C)(C)CC3(C)C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,17.7,9.36,1.83,0.33,
+Perm212,High Temperature Polymers,CC(C)(C1=CC2N=C(*)OC2C=C1)C1=CC=C2OC(=NC2=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,12.5,2.7,0.78,0.12,0.086
+Perm213,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(*)C=C1)C1=CC(=CC=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C(F)(F)F)C(F)(F)F,38.2,10.7,2.89,0.473,0.217
+Perm214,Polysulfones,CC(C)(C1=CC=C(*)C=C1)C1=CC(CN)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,1.95,0.7,0.11,0.11
+Perm215,Polysulfones,CC(C)(C1=CC=C(*)C=C1)C1=CC(CN2C(=O)C3=C(C=CC=C3)C2=O)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,2.12,0.54,0.08,0.08
+Perm216,Polysulfones,CC(C)(C1=CC=C(*)C=C1)C1=CC(N)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,2.95,0.745,0.12,0.12
+Perm217,High Temperature Polymers,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(C=C1)C1=NC2=C(N1)C=CC(=C2)C1=CC2=C(NC(*)=N2)C=C1,12.2,2.91,0.6,0.13,0.07
+Perm218,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,,30.0,,,0.697
+Perm219,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O,,30.0,7.5,1.34,0.7
+Perm220,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(OC3=CC=C(OC4=CC=C5C(=O)N(*)C(=O)C5=C4)C=C3)C=C2)C1=O,9.33,2.65,0.586,0.104,0.0692
+Perm221,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=CC3=C(C=C2C1=O)C(=O)N(*)C3=O,17.0,26.9,7.1,1.5,0.9015
+Perm222,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC=C(*)C=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C2=CC=C(C=C2)C(=O)C2=CC=C(O*)C=C2)C=C1,8.9,3.3,0.75,0.1295,0.14
+Perm223,Polysulfones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(C=C2)C2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,20.1,10.8,2.39,0.4695,0.5
+Perm224,Polysulfones,CC(C)(C1=CC=C(*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,14.0,5.6,1.395,0.249,0.2575
+Perm225,Uncategorised,CC(C)(C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(OC2=CC=C(C=C2)C(C2=CC=C(O*)C=C2)(C(F)(F)F)C(F)(F)F)C=C1,22.8,8.0,2.4,0.44,0.345
+Perm226,Polysulfones,CC(C)(C1=CC=C(O*)C=C1)C1=CC(=CC=C1)C(C)(C)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,10.6,2.8,0.69,0.11,0.111
+Perm227,Polysulfones,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(C=C1)C(C)(C)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,36.0,6.8,1.8,0.3205,0.34
+Perm228,Polycarbonates,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC(*)=O)C=C1,13.0,7.54,1.484,0.3,0.331
+Perm229,Polyarylates,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC(=O)C2=CC=C(C=C2)C(*)=O)C=C1,,11.6,2.5,0.625,0.678
+Perm230,Polyarylates,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC(=O)C2=CC=C(C=C2)C(=O)OC2=CC(C3=CC(*)=CC4=C3C=CC=C4)=C3C=CC=CC3=C2)C=C1,,9.9,2.04,0.364,0.471
+Perm231,Polyarylates,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C1,,5.6,1.45,0.272,0.269
+Perm232,Polyarylates,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC(=O)C2=CC=CC(=C2)C(=O)OC2=CC(C3=CC(*)=CC4=C3C=CC=C4)=C3C=CC=CC3=C2)C=C1,,4.0,0.93,0.139,0.148
+Perm233,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=C(F)C(F)=C(COC(C3CCCC(C3)C(OCC3=C(F)C(F)=C(*)C(F)=C3F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)C(F)=C2F)C=C1,17.0,6.4,2.1,0.48,0.32
+Perm234,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=C(C=C2)N2C(=O)C3=C(C=C(*)C=C3)C2=O)C=C1,,1.8,0.4,0.53,0.04
+Perm235,Uncategorised,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=CC(=C2)N2C(=O)C3=C(C=C(*)C=C3)C2=O)C=C1,,1.3,0.4,0.0526,0.0356
+Perm236,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,11.0,3.5,1.0,0.16,0.18
+Perm237,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,9.07,2.19,0.604,0.087,0.084
+Perm238,Uncategorised,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C(C)(C)C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,12.4,4.4,1.1,0.21,0.22
+Perm239,Polysulfones,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=C3C=CC=CC3=C(*)C=C2)C=C1,,4.7,1.2,0.15,0.08
+Perm240,Polysulfones,CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,14.0,5.6,1.4,0.25,0.25
+Perm241,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)(C1=CC=C(O*)C=C1)C1=CC=C(OCCC(O)*)C=C1,,0.5,0.09,0.019,0.02
+Perm242,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=C(C=C2)C2=CC(=C(OC3=CC4=C(C=C3)C(C)(C)CC43CC(C)(C)C4=C3C=C(OC3=CC=C(C=C3C(F)(F)F)C3=CC=C(*)C=C3)C=C4)C=C2)C(F)(F)F)C=C1)C1=CC=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1,,23.87,9.92,1.02,0.35
+Perm243,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC3=C(C=C2)C(O)N(*)C3O)C=C1)C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=C(C=C2)C2=CC=C(OC3=CC=C(C=C3)C3(C)CC(C)(C)C4=C3C=C(OC3=CC=C(C=C3C(F)(F)F)C3=CC=C(*)C=C3)C=C4)C(=C2)C(F)(F)F)C=C1,,39.45,10.95,2.08,1.38
+Perm244,Polyamides and poly(amide-imides),CC(C)(C1=CC=C(OC2=CC3C(C=C2)C(=O)N(*)C3=O)C=C1)C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=CC(*)=C2)C=C1,,,0.277,0.0323,
+Perm245,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC3C(C=C2)C(=O)N(*)C3=O)C=C1)C1=CC=C(OC2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(C=C2)C2=CC=C(OC3=CC=C(C=C3)C3(C4=C(C=CC=C4)C4=C3C=CC=C4)C3=CC=C(OC4=CC=C(C=C4C(F)(F)F)C4=CC=C(*)C=C4)C=C3)C(=C2)C(F)(F)F)C=C1,,22.52,7.01,1.19,1.01
+Perm246,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1,8.9,2.8,0.54,0.11,
+Perm247,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1,,2.8,0.596,0.0938,0.0846
+Perm248,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(OC4=CC5=C(C=C4)C(=O)N(*)C5=O)C=C3C2=O)C=C1,8.0,2.7,0.49,0.07,
+Perm249,Polysulfones,CC(C)(C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1)C1=CC=CC(O*)=C1,8.0,1.5,0.39,0.066,0.052
+Perm250,Polysulfones,CC(C)(C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1)C1=CC(*)=CC=C1,,1.5,0.39,0.0661,0.0432
+Perm251,Polyamides and poly(amide-imides),CC(C)(C1=CC=C(OC2=CC=C(N*)C=C2)C=C1)C1=CC=C(OC2=CC=C(NC(=O)C3=CC4C(C=C3)C(C)(CC4(C)C)C3=CC=C(C=C3)C(*)=O)C=C2)C=C1,,9.6,1.91,0.31,0.33
+Perm252,Polyimides and Polypyrrolones,CC(C)(C1=CC=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1)C1=CC=C(OC2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(C=C2)C2=CC(=C(OC3=CC=C(C=C3)C3(N(C(=O)C4=C3C=CC=C4)C3=CC=CC=C3)C3=CC=C(OC4=CC=C(C=C4C(F)(F)F)C4=CC=C(*)C=C4)C=C3)C=C2)C(F)(F)F)C=C1,,16.61,4.25,0.95,0.84
+Perm253,Polymers with High Free Volume,CC(C)C(*)=C(C)*,5720.0,10700.0,2700.0,1250.0,2690.0
+Perm254(ladder),Polymers with High Free Volume,CC(C)C12C3=C(C=CC=C3)C(C(C)C)(C3=C1C=C(*)C(*)=C3)C1=C2C=C2OC3=C(OC2=C1)C=C1C(=O)N(C(=O)C1=C3)C1=C(C)C(C)=C(N2C(=O)C3=C(C=C(O*)C(O*)=C3)C2=O)C(C)=C1C,3431.0,,542.0,87.42,83.68
+Perm255(ladder),Polymers with High Free Volume,CC(C)C12C3=C(C=CC=C3)C(C(C)C)(C3=C1C=C(*)C(*)=C3)C1=C2C=C2OC3=C(OC2=C1)C=C1N=C(*)C(*)=NC1=C3,1105.0,,61.0,7.09,7.27
+Perm256(ladder),Polymers with High Free Volume,CC(C)C12C3=C(C=CC=C3)C(C(C)C)(C3=C1C=C1N(*)CN(C*)C1=C3)C1=C2C=C(*)C(*)=C1,4740.0,,1073.0,188.25,215.45
+Perm257,Polyimides_NEW,CC(C)C12C3=C(C=CC=C3)C(C(C)C)(C3=C1C=C1OC4=C(OC1=C3)C=C1C(=O)N(*)C(=O)C1=C4)C1=C2C=C2OC3=C(OC2=C1)C=C1C(=O)N(C(=O)C1=C3)C1=C(C)C2=C(C=C1C)C1C3=C(C=CC=C3)C2C2=C1C=C(C)C(*)=C2C,4140.0,5010.0,1153.0,306.0,395.0
+Perm258,Polymers with High Free Volume,CC(C)C12C3=CC4=C(C=C3C(C(C)C)(C3=C1C=CC=C3)C1=C2C=C2C(=O)N(C(=O)C2=C1)C1=C2C=CC=CC2=C(C=C1C)C1=CC(C)=C(*)C2=C1C=CC=C2)C(=O)N(*)C4=O,2173.5,2912.0,549.5,145.0,190.5
+Perm259,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)C1=C(O*)C=CC(=C1)C(C1C=CC=CC1C(O)=O)C1=CC(C(C)C)=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,49.7,22.8,7.2,1.18,1.35
+Perm260,Polysulfones,CC(C)C1=CC(=C(C)C=C1O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC(C(C)C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1C,30.6,19.4,4.85,0.699,0.928
+Perm261,Poly(aryl ethers) and Poly(aryl ether ketones),CC(C)C1=CC(=C(C)C=C1O*)C1(OC(=O)C2C=CC=CC12)C1=C(C)C=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C(=C1)C(C)C,42.5,19.3,4.85,0.933,1.09
+Perm262,Polysulfones,CC(C)C1=CC(C(C2=CC(C(C)C)=C(OC3=CC=C(C=C3)S(=O)(=O)C3=CC=C(*)C=C3)C=C2C)C2=C(C=CC=C2)C(O)=O)=C(C)C=C1O*,49.6,25.1,4.53,0.757,1.13
+Perm263,Polyamides and poly(amide-imides),CC(C)C1=CC(CC2=CC(C(C)C)=C(NC(=O)C3=CC=C(OC4=C(C=C(OC5=CC=C(C=C5)C(*)=O)C(=C4)C(C)(C)C)C(C)(C)C)C=C3)C(C)=C2)=CC(C)=C1N*,,27.0,6.47,1.18,1.21
+Perm264,Substituted Polyacetylenes,CC(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,,1100.0,300.0,150.0,
+Perm265,Polypropynes & Polyalkynes,CC(C)CC(*)=C(C)*,750.0,900.0,245.0,93.0,190.0
+Perm266,Polyolefins,CC(C)CC(*)C*,,92.6,32.3,,
+Perm267,Vinyl and Vinylidene Polymers,CC(C)CC(C)OC(=O)C(*)C(*)C(=O)OC(C)(C)C,169.0,,49.0,16.0,
+Perm268,Vinyl and Vinylidene Polymers,CC(C)CC(C)OC(=O)C(*)C(*)C(=O)OC(C)C,156.0,,45.0,14.0,
+Perm269,Polypropynes & Polyalkynes,CC(C)CCC(*)=C(C)*,370.0,390.0,130.0,51.0,112.0
+Perm270,Polyphosphazenes,CC(C)COP(*)(OCC(C)C)=N*,167.0,395.0,86.6,31.7,98.7
+Perm271,Vinyl and Vinylidene Polymers,CC(C)OC(=O)C(*)C(*)C(=O)OC(C)(C)C,133.0,,21.0,9.0,
+Perm272,Vinyl and Vinylidene Polymers,CC(C)OC(=O)C(*)C(*)C(=O)OC1CCCCC1,41.0,,8.0,3.0,
+Perm273,Hydrocarbon Elastomers,CC(C)O[Si](C)(C)C(C*)=CC*,,23.2,6.0,1.5,3.1
+Perm274,Hydrocarbon Elastomers,CC(C)O[Si](C)(OC(C)C)C(C*)=CC*,,345.0,69.2,25.4,63.2
+Perm275,Hydrocarbon Elastomers,CC(C)O[Si](OC(C)C)(OC(C)C)C(C*)=CC*,,1230.0,247.0,109.0,263.0
+Perm276,Substituted Polyacetylenes,CC(C)[Si](C(C)C)(C(C)C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,635.0,1300.0,290.0,130.5,315.0
+Perm277,Polypropynes & Polyalkynes,CC(C)[Si](C)(C)C(\*)=C(\C)*,1650.0,2200.0,460.0,170.0,360.0
+Perm278,Polyesters,CC(C*)C(=O)OC(C)C(*)=O,,0.905,0.26,0.04,1.0
+Perm279,Various Polymers,CC(C*)C(=O)OCCOC(=O)C(C)C*,15.0,95.0,4.7,1.6,4.8
+Perm280,Thermally Rearranged Polymers,CC(C*)O*,42.0,190.0,28.0,11.0,34.0
+Perm281,Polysulfones,CC(C1=CC=CC=C1)(C1=CC=C(*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,8.12,1.56,0.278,0.32
+Perm282,Polyarylates,CC(C1=CC=CC=C1)(C1=CC=C(O*)C=C1)C1=CC=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C1,,13.1,2.58,0.54,0.59
+Perm283,Polysulfones,CC(C1=CC=CC=C1)(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,,8.12,1.56,0.278,0.32
+Perm284,Polycarbonates,CC(C1=CC=CC=C1)(C1=CC=C(*)C=C1)C1=CC=C(OC(=O)O*)C=C1,,9.48,1.84,0.361,0.419
+Perm285,Polyamides and poly(amide-imides),CC(CCNC(=O)C1=CC=C(C=C1)C(*)=O)CC(C)(C)CN*,,0.33,0.092,0.016,0.018
+Perm286,Substituted Polyacetylenes,CC1(C)C2=CC(=CC=C2C2=C1C=C(Br)C=C2)C(*)=C(*)C1=CC=CC=C1,3700.0,8000.0,2000.0,1100.0,3000.0
+Perm287,Substituted Polyacetylenes,CC1(C)C2=CC(=CC=C2C2=C1C=C(C=C2)[Si](C)(C)C)C(*)=C(*)C1=CC=CC=C1,8500.0,18000.0,5400.0,3400.0,10000.0
+Perm288,Substituted Polyacetylenes,CC1(C)C2=CC(=CC=C2C2=C1C=CC=C2)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)C,980.0,1900.0,440.0,190.0,500.0
+Perm289,Substituted Polyacetylenes,CC1(C)C2=CC(=CC=C2C2=C1C=CC=C2)C(*)=C(*)C1=CC=CC=C1,8100.0,17000.0,4800.0,3300.0,9100.0
+Perm290,Substituted Polyacetylenes,CC1(C)C2=CC=C(C=C2C(C)(C)C1(C)C)C(*)=C(*)C1=CC=CC=C1,23650.0,35750.0,12700.0,10200.0,24700.0
+Perm291,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC(F)=C(F)C=C1,36800.0,44200.0,18700.0,16600.0,35000.0
+Perm292,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC(F)=CC(F)=C1,28500.0,36100.0,15200.0,13100.0,29100.0
+Perm293,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC(F)=CC=C1,27000.0,35200.0,14300.0,12000.0,27800.0
+Perm294,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC=C(Br)C=C1,20700.0,32800.0,11400.0,9200.0,22400.0
+Perm295,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC=C(Cl)C=C1,20600.0,35200.0,11700.0,9200.0,22700.0
+Perm296,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC=C(F)C=C1,33300.0,47000.0,17900.0,15600.0,34300.0
+Perm297,Substituted Polyacetylenes,CC1(C)CC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC=CC=C1,24800.0,38700.0,14400.0,11600.0,29100.0
+Perm298,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=C(*)C(*)=C2)C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2C(C=C1)C(=O)N(*)C2=O,27.16,7.0,1.9,0.27,0.21
+Perm299,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=C(Br)C(*)=C2)C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2C(C=C1)C(=O)N(*)C2=O,,13.3,3.6,0.55,0.44
+Perm300,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=C(C=C(C=C3)C(=O)C3=CC4=C(C=C3)C(O)N(*)C4O)C2=O)C=C1,,34.2,7.98,1.32,0.88
+Perm301,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=C(C=C(C=C3)C(C3=CC4=C(C=C3)C(O)N(*)C4O)(C(F)(F)F)C(F)(F)F)C2=O)C=C1,,57.45,14.98,2.44,1.62
+Perm302,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=C(C=C(OC4=CC5=C(C=C4)C(O)N(*)C5O)C=C3)C2=O)C=C1,,35.78,8.95,1.42,0.98
+Perm303,Polyimides and Polypyrrolones,CC1(C)CC(C)(C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=C(C=C4C(=O)N(*)C(=O)C4=C3)C2=O)C=C1,,44.68,12.22,2.36,1.52
+Perm304,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(C=C3C2=C)C(=O)C2=CC3C(C=C2)C(=O)N(C3=O)C2=CC=C(O*)C=C2)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,12.5,5.0,1.03,0.16,
+Perm305,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(C=C3C2=C)C(C2=CC3C(C=C2)C(=O)N(C3=O)C2=CC=C(O*)C=C2)(C(F)(F)F)C(F)(F)F)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,17.3,7.7,1.64,0.32,
+Perm306,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(C=C3C2=C)C2(CCCCC2)C2=CC3C(C=C2)C(=O)N(C3=O)C2=CC=C(O*)C=C2)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,16.7,7.39,1.57,0.29,
+Perm307,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(C=C3C2=C)C2=CC3C(C=C2)C(=O)N(C3=O)C2=CC=C(O*)C=C2)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,14.9,6.45,1.47,0.42,
+Perm308,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(C=C3C2=C)S(=O)(=O)C2=CC3C(C=C2)C(=O)N(C3=O)C2=CC=C(O*)C=C2)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,14.5,7.2,1.32,0.23,
+Perm309,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(OC4=CC5C(C=C4)C(=O)N(C5=O)C4=CC=C(O*)C=C4)C=C3C2=C)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,11.6,4.18,1.08,0.21,
+Perm310,Poly(aryl ethers) and Poly(aryl ether ketones),CC1(C)CC(C)(C2=CC=C(C=C12)C(=O)C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C(SC4=CC5C(C=C4)C(=O)N(C5=O)C4=CC=C(O*)C=C4)C=C3C2=C)C=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,13.5,5.7,1.12,0.2,
+Perm311,High Temperature Polymers,CC1(C)CC(C)(C2C=C(*)C=CC12)C1=CC=C(C=C1)C1=NN=C(*)O1,,93.0,17.1,3.3,3.58
+Perm312,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=C2C=CC=C(N*)C2=CC=C1)C1=CC=C(C=C1)C(*)=O,,4.1,0.94,0.12,0.09
+Perm313,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=C(C2=C(C=C(N*)C=C2)C(F)(F)F)C(=C1)C(F)(F)F)C1=CC=C(C=C1)C(*)=O,,31.2,7.23,1.3,0.9
+Perm314,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=C(N*)C=C1)C1=CC=C(C=C1)C(*)=O,,8.9,1.67,0.25,0.18
+Perm315,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=C(OC2=CC=C(N*)C=C2)C=C1)C1=CC=C(C=C1)C(*)=O,,8.4,1.67,0.24,0.21
+Perm316,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=CC(=C1)C(C1=CC=CC(N*)=C1)(C(F)(F)F)C(F)(F)F)C1=CC=C(C=C1)C(*)=O,,35.3,7.35,1.36,0.91
+Perm317,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=CC(=C1)S(=O)(=O)C1=CC=CC(N*)=C1)C1=CC=C(C=C1)C(*)=O,,2.2,0.53,0.06,0.04
+Perm318,Polyamides and poly(amide-imides),CC1(C)CC(C)(C2C=CC(=CC12)C(=O)NC1=CC=CC(N*)=C1)C1=CC=C(C=C1)C(*)=O,,5.2,1.16,0.15,0.09
+Perm319(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C(O2)C=C2OC4=C(OC2=C3)C(C#N)=C(*)C(*)=C4C#N)OC2=C1C=C(O*)C(O*)=C2,750.0,1535.0,212.5,61.5,93.0
+Perm320,Polyimides_NEW,CC1(C)CC2(CC(C)(C)C3=C2C=C(O)C(=C3)N2C(=O)C3C(C2=O)C2(Br)C4C(C(=O)N(*)C4=O)C3(Br)C(Br)=C2Br)C2=C1C=C(*)C(O)=C2,274.0,138.0,31.2,5.3,4.9
+Perm321,Polyimides_NEW,CC1(C)CC2(CC(C)(C)C3=C2C=C(O)C(=C3)N2C(=O)C3C=CC(=CC3C2=O)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C2=C1C=C(*)C(O)=C2,181.0,119.0,23.8,5.5,3.4
+Perm322,Polyimides and Polypyrrolones,CC1(C)CC2(CC(C)(C)C3=C2C=C(O*)C=C3)C2C=C(OC3=CC=C4C(=O)N(C(=O)C4=C3)C3=CC=CC(=C3)N3C(=O)C4=C(C=C(*)C=C4)C3=O)C=CC12,,4.5,1.36,0.197,0.155
+Perm323,Polyarylates,CC1(C)CC2(CC(C)(C)C3=C2C=C(OC(=O)C2=CC=C(C=C2)C(*)=O)C=C3)C2=C1C=CC(O*)=C2,,55.7,13.4,2.98,4.22
+Perm324,Polyarylates,CC1(C)CC2(CC(C)(C)C3=C2C=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C3)C2=C1C=CC(O*)=C2,,18.9,5.31,1.0,1.14
+Perm325,Polyimides and Polypyrrolones,CC1(C)CC2(CC(C)(C)C3=C2C=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C4=C(C=C(C=C4)C(C4=CC=C5C(=O)N(*)C(=O)C5=C4)(C(F)(F)F)C(F)(F)F)C2=O)C(F)(F)F)C=C3)C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2,,52.98,36.08,3.35,1.21
+Perm326,Polyimides and Polypyrrolones,CC1(C)CC2(CC(C)(C)C3=C2C=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C4=C(C=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C=C4)C2=O)C(F)(F)F)C=C3)C2=C1C=CC(OC1=CC=C(C=C1C(F)(F)F)C1=CC=C(*)C=C1)=C2,,22.64,13.07,1.12,0.41
+Perm327,Uncategorised,CC1(C)CC2(CC(C)(C)C3=C2C=C(OC2=CC4=C(C=C2)C(=O)N(C4=O)C2=CC=CC(=C2)N2C(=O)C4=C(C=C(*)C=C4)C2=O)C=C3)C2=C1C=CC(O*)=C2,,4.5,1.4,0.203,0.155
+Perm328,Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2C(=O)N(C(=O)C2=C3)C2=CC3=C(C=C2)C(C)(C)CC32CC(C)(C)C3=C2C=C(*)C=C3)C2=CC3=C(C=C12)C(=O)N(*)C3=O,624.0,1523.0,208.0,65.0,129.0
+Perm329(ladder),High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2N=C4C=C(*)C(*)=CC4=NC2=C3)C2=CC3=C(C=C12)N=C1C=C2OC4=CC5=C(C=C4OC2=CC1=N3)C1(CC(C)(C)C2=C1C=C(O*)C(O*)=C2)CC5(C)C,860.0,1100.0,190.0,42.0,62.0
+Perm330(ladder),High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C(=C(*)C(*)=C4S(=O)(=O)C2=CC=CC=C2)C(F)(F)F)C2=CC(O*)=C(O*)C=C12,,2158.5,434.5,116.5,
+Perm331(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C(C#N)=C(*)C(*)=C4C#N)C2=C1C=C(O*)C(O*)=C2,2936.0,5303.0,969.0,252.0,320.0
+Perm332(ladder),High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C(C#N)=C(*)C(*)=C4C#N)C2=CC(O*)=C(O*)C=C12,1630.0,4878.0,856.5,260.0,275.0
+Perm333(ladder),High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C(C(O)=O)=C(*)C(*)=C4C#N)C2=CC(O*)=C(O*)C=C12,1540.0,2543.0,534.0,162.0,
+Perm334(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C(CN)=C(*)C(*)=C4CN)C2=C1C=C(O*)C(O*)=C2,2280.0,1590.0,752.0,176.0,257.0
+Perm335(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C(N2C(=O)C3=C(C=C(*)C(*)=C3)C2=O)(C(F)(F)F)C(F)(F)F)C2=C1C=C(O*)C(O*)=C2,1600.0,3700.0,545.0,160.0,260.0
+Perm336,Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C2=CC(=C(C=C2)C2=CC=C(*)C=C2C(F)(F)F)C(F)(F)F)C2=C1C=C1OC3=C(OC1=C2)C=C1C(=O)N(*)C(=O)C1=C3,300.0,420.0,64.0,16.0,20.0
+Perm337,High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C2=CC(=C(C=C2)C2=CC=C(*)C=C2C(F)(F)F)C(F)(F)F)C2=CC3=C(OC4=CC5=C(C=C4O3)C(=O)N(*)C5=O)C=C12,300.0,420.0,64.0,16.0,20.0
+Perm338,High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C2=CC=C(C=C2)C(C2=CC=C(*)C=C2)(C(F)(F)F)C(F)(F)F)C2=CC3=C(OC4=CC5=C(C=C4O3)C(=O)N(*)C5=O)C=C12,360.0,520.0,85.0,23.0,27.0
+Perm339,Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C2=CC=CC3=C2C=CC=C3*)C2=C1C=C1OC3=C(OC1=C2)C=C1C(=O)N(*)C(=O)C1=C3,350.0,510.0,77.0,19.0,27.0
+Perm340,High Temperature Polymers,CC1(C)CC2(CC(C)(C)C3=C2C=C2OC4=C(OC2=C3)C=C2C(=O)N(C(=O)C2=C4)C2=CC=CC3=C2C=CC=C3*)C2=CC3=C(OC4=CC5=C(C=C4O3)C(=O)N(*)C5=O)C=C12,350.0,510.0,77.0,19.0,27.0
+Perm341(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=CC4=NC5=C(C=C(*)C(*)=C5)N=C4C=C23)C2C=C3N=C4C=C5OC6=C(OC5=CC4=NC3=CC12)C=C1C(=C6)C2(CC1(C)C)CC(C)(C)C1=C2C=C(O*)C(O*)=C1,860.0,1100.0,190.0,42.0,62.0
+Perm342(ladder),Polymers with High Free Volume,CC1(C)CC2(CC(C)(C)C3=CC4=NC5=C(C=C6OC7=C(OC6=C5)C=CC(=C7)C5(C6C=CC=CC6C6C=CC=CC56)C5=CC=C(O*)C(O*)=C5)N=C4C=C23)C2=CC3=NC4=C(C=C(*)C(*)=C4)N=C3C=C12,320.0,430.0,59.0,13.0,22.0
+Perm343,Polycarbonates,CC1(C)CC2(CC(C)(C)C3=CC=C(OC(=O)O*)C=C23)C2C=C(*)C=CC12,,30.0,7.0,1.373,0.2
+Perm344,Substituted Polyacetylenes,CC1(C)CCC(C)(C)C2=CC(=CC=C12)C(*)=C(*)C1=CC=CC=C1,7700.0,11400.0,3900.0,2700.0,6600.0
+Perm345,Polymers with High Free Volume,CC12C3=CC4=C(C=C3C(C)(C3=C1C=CC=C3)C1=C2C=C2C(=O)N(C(=O)C2=C1)C1=C(O)C=CC(=C1)C(C1=CC=C(O)C(*)=C1)(C(F)(F)F)C(F)(F)F)C(=O)N(*)C4=O,83.5,35.0,7.45,1.2,0.565
+Perm346(ladder),Polymers with High Free Volume,CC12CCC(C)(C3=C1C=C1N(*)CN(C*)C1=C3)C1=C2C=C(*)C(*)=C1,4442.0,,933.0,186.6,222.1
+Perm347(ladder),Polymers with High Free Volume,CC1=C(*)C(*)=CC(=C1)C1(C2CC3CC(C2)CC1C3)C1=CC2=C(C=C1)N(C*)CN(*)C2,745.0,635.0,145.0,33.0,41.0
+Perm348,Polyimides_NEW,CC1=C(*)C(C)=C(C(O)=O)C(C)=C1N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,193.0,144.0,26.4,5.52,3.2
+Perm349,Polyimides and Polypyrrolones,CC1=C(*)C(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C2=C1CCC2(C)C,,692.0,198.0,58.6,50.5
+Perm350,Polyimides and Polypyrrolones,CC1=C(*)C(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C2=C1CCC2(C)C,,329.0,83.4,22.0,23.9
+Perm351,Polyimides and Polypyrrolones,CC1=C(*)C(C)=C(N2C(=O)C3=CC=C(OC4=CC5=C(C=C4)C(=O)N(*)C5=O)C=C3C2=O)C2=C1CCC2(C)C,,161.0,43.9,10.3,10.3
+Perm352,Polymers with High Free Volume,CC1=C(*)C=C(C=C1)C(C1=CC(N2C(=O)C3=CC4=C(OC5=CC6=C(C=C5O4)C(C)(C)CC64CC(C)(C)C5=C4C=C4OC6=C(OC4=C5)C=C4C(=O)N(*)C(=O)C4=C6)C=C3C2=O)=C(C)C=C1)(C(F)(F)F)C(F)(F)F,220.0,210.0,39.0,9.0,9.0
+Perm353,High Temperature Polymers,CC1=C(*)C=C(C=C1)C(C1=CC(N2C(=O)C3=CC4=C(OC5=CC6=C(C=C5O4)C(C)(C)CC64CC(C)(C)C5=CC6=C(OC7=CC8=C(C=C7O6)C(=O)N(*)C8=O)C=C45)C=C3C2=O)=C(C)C=C1)(C(F)(F)F)C(F)(F)F,220.0,210.0,39.0,9.0,9.0
+Perm354,Polyimides_NEW,CC1=C(*)C=CC2=C1N1CN(C2)C2=C(C)C(=CC=C2C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,322.0,190.0,50.0,10.0,6.3
+Perm355(ladder),Polymers with High Free Volume,CC1=C(C)C(N2C(=O)C3=C(C=C(*)C(*)=C3)C2=O)=C(C)C(C)=C1N1C(=O)C2=CC3=C(OC4=CC5=C(C=C4O3)C(C)(C)CC53CC(C)(C)C4=C3C=C(O*)C(O*)=C4)C=C2C1=O,360.0,520.0,85.0,23.0,27.0
+Perm356,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=C(C=C(C=C3)C(=O)C3=CC=C4C(=O)N(*)C(=O)C4=C3)C2=O)=C(C)C(C)=C1*,108.0,,11.8,2.63,
+Perm357,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=C(C=C(C=C3)C(C3=CC=C4C(=O)N(*)C(=O)C4=C3)(C(F)(F)F)C(F)(F)F)C2=O)=C(C)C(C)=C1*,434.0,,87.0,20.0,
+Perm358,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=C(C=C(OC4=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C=CC(=C4)C(C)(C)C)C=C3)C2=O)=C(C)C(*)=C1,85.0,63.0,11.0,2.2,2.5
+Perm359,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=C(C=C(OC4=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C=CC(=C4)C(C)(C)C)C=C3)C2=O)=C(C)C(C)=C1*,91.0,71.0,12.0,2.55,3.1
+Perm360,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=C(C=C(OC4=CC(C)=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C(C)=C4C)C=C3)C2=O)=C(C)C(*)=C1,130.0,110.0,18.0,3.8,4.0
+Perm361,Polymers with High Free Volume,CC1=C(C)C(N2C(=O)C3=CC4=C(C=C3C2=O)C2(CC(C)(C)C3=CC5=C(C=C23)C(=O)N(*)C5=O)CC4(C)C)=C(C)C(C)=C1*,1915.0,3940.0,722.5,257.0,390.0
+Perm362,High Temperature Polymers,CC1=C(C)C(N2C(=O)C3=CC4=C(OC5=CC6=C(C=C5O4)C(C)(C)CC64CC(C)(C)C5=CC6=C(OC7=CC8=C(C=C7O6)C(=O)N(*)C8=O)C=C45)C=C3C2=O)=C(C)C(C)=C1*,530.0,1100.0,150.0,47.0,77.0
+Perm363,Poly(imide‚àíoxadiazole)_NEW,CC1=C(C)C(N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)=C(C)C(C)=C1*,,734.0,,55.5,45.2
+Perm364,Polyimides and Polypyrrolones,CC1=C(C)C(N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)=C(C)C(C)=C1*,549.0,448.0,123.5,34.55,28.2
+Perm365,Polyimides and Polypyrrolones,CC1=C(C=C(*)C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,87.2,28.63,7.44,1.31,0.71
+Perm366,Polyimides and Polypyrrolones,CC1=C(C=CC=C1*)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,102.0,36.25,10.8,1.89,0.88
+Perm367,Polyimides and Polypyrrolones,CC1=C(C=CC=C1*)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,106.0,40.1,11.3,2.24,0.871
+Perm368,Polyarylates,CC1=C(O*)C(Br)=CC(=C1)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C(Br)=C1,,22.7,6.27,1.06,1.06
+Perm369,Polyarylates,CC1=C(O*)C(Br)=CC(=C1)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC(C)=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C(Br)=C1,,71.0,15.4,2.78,3.3
+Perm370,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=C(O*)C(C)=C(C(*)=C1)[N+]([O-])=O,,40.4,11.5,2.4,2.4
+Perm371,Polysulfones,CC1=C(O*)C=CC(=C1)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,11.0,2.1,0.64,0.091,0.07
+Perm372,Polyimides and Polypyrrolones,CC1=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C(C)=C(C)C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=C(C)C(C)=C(*)C(C)=C2C)=C1,230.0,200.0,33.0,8.1,7.6
+Perm373,Polyimides and Polypyrrolones,CC1=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C(C)=C(C)C(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=CC=C(C=C2)C(C2=CC=C(*)C=C2)(C(F)(F)F)C(F)(F)F)=C1,77.0,54.0,9.3,1.9,1.7
+Perm374,Polyimides and Polypyrrolones,CC1=C2C(=CC(*)=C1)S(=O)(=O)C1=CC(=CC(C)=C21)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC=C2C(=O)N(*)C(=O)C2=C1,28.2,7.73,3.29,0.499,0.1945
+Perm375,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(*)=C(C(=O)C2=CC=C(Br)C=C2)C(C)=C1O*,,18.0,8.45,2.13,1.13
+Perm376,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(*)=C(C(=O)C2=CC=C(C=C2)[N+]([O-])=O)C(C)=C1O*,,11.4,5.04,1.27,0.76
+Perm377,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(*)=C(C(=O)C2=CC=C(Cl)C=C2)C(C)=C1O*,,16.8,8.6,1.8,0.98
+Perm378,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(*)=C(C(=O)C2=CC=CC=C2)C(C)=C1O*,,14.3,6.0,1.59,0.95
+Perm379,Polyimides and Polypyrrolones,CC1=CC(*)=C(C)C=C1N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,119.0,42.7,13.4,2.67,1.07
+Perm380,Polyamides and poly(amide-imides),CC1=CC(*)=CC(C)=C1N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,,17.9,3.53,0.499,0.349
+Perm381,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(*)=CC(C)=C1O*,68.65,66.0,14.6,3.5,4.1
+Perm382,Polyimides_NEW,CC1=CC(*)=CC=C1OC1=C(C2=C(C=CC=C2)C=C1)C1=C(OC2=C(C)C=C(C=C2)N2C(=O)C3=C(C=C(C=C3)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)C2=O)C=CC2=C1C=CC=C2,26.2,18.4,3.35,0.53,0.28
+Perm383,Polysulfones,CC1=CC(=C(C)C(C)=C1*)C1=C(C)C(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C(C)=C1,,25.5,6.0,1.2,0.944
+Perm384,Polysulfones,CC1=CC(=C(C)C(C)=C1OC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(*)C=C1)C1=CC(C)=C(O*)C(C)=C1C,63.0,25.5,6.0,1.2,0.94
+Perm385,Polyimides and Polypyrrolones,CC1=CC(=C(C)C=C1C1=C(C)C(*)=CC=C1)C1=C(C)C(*)=CC=C1,210.0,190.0,32.0,7.3,5.6
+Perm386,Polyimides and Polypyrrolones,CC1=CC(=C(C)C=C1C1=C(C)C=C(*)C=C1)C1=C(C)C=C(*)C=C1,72.0,32.0,7.2,1.4,0.88
+Perm387,Polyimides and Polypyrrolones,CC1=CC(=C(C)C=C1C1=C(C)C=CC(*)=C1)C1=C(C)C=CC(*)=C1,100.0,62.0,12.0,2.4,1.9
+Perm388,Polyimides and Polypyrrolones,CC1=CC(=C(C)C=C1C1=CC(C)=C(*)C=C1)C1=CC(C)=C(*)C=C1,51.0,,8.6,1.6,1.1
+Perm389,Polysulfones,CC1=CC(=C(C)C=C1O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1C,16.9,7.69,1.55,0.21,0.225
+Perm390,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=C(C)C=C1O*)C1(OC(=O)C2C=CC=CC12)C1=C(C)C=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C(C)=C1,21.5,5.44,1.55,0.19,0.17
+Perm391,Polyimides_NEW,CC1=CC(=C2C=CC=CC2=C1*)C1=C2C=CC=CC2=C(N2C(=O)C3=C(C=C4C(=C3)C3(C)CCC4(C)C4=C3C=C3C(=O)N(*)C(=O)C3=C4)C2=O)C(C)=C1,3291.0,3321.0,783.0,165.0,154.0
+Perm392,Polyimides_NEW,CC1=CC(=C2C=CC=CC2=C1*)C1=C2C=CC=CC2=C(N2C(=O)C3=CC4=C(OC5=C(O4)C=C4C(=C5)C5(C)CCC4(C)C4=C5C=C5OC6=C(OC5=C4)C=C4C(=O)N(*)C(=O)C4=C6)C=C3C2=O)C(C)=C1,2488.5,3001.0,583.0,141.0,180.5
+Perm393,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC(C)=C1)C1=CC(O*)=CC=C1OC1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,4.6,1.6,0.33,0.053,0.05
+Perm394,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC(C)=C1)C1=CC(O*)=CC=C1OC1=CC=CC(*)=C1C#N,9.6,3.5,0.94,0.17,0.06
+Perm395,Polycarbonates,CC1=CC(=CC(C)=C1*)C(C)(C)C1=CC(C)=C(OC(=O)O*)C(C)=C1,,19.65,5.545,1.07,0.955
+Perm396,Polysulfones,CC1=CC(=CC(C)=C1*)C(C)(C)C1=CC(C)=C(OC2=CC(=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2C(O)(C(F)(F)F)C(F)(F)F)C(O)(C(F)(F)F)C(F)(F)F)C(C)=C1,,30.0,8.5,1.5,
+Perm397,Polysulfones,CC1=CC(=CC(C)=C1*)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C(C)=C1,15.5,21.0,5.6,1.057,0.5215
+Perm398,Polysulfones,CC1=CC(=CC(C)=C1*)C(C1=CC(C)=C(OC2=CC(=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2C(O)(C(F)(F)F)C(F)(F)F)C(O)(C(F)(F)F)C(F)(F)F)C(C)=C1)(C(F)(F)F)C(F)(F)F,,81.0,14.0,5.92,
+Perm399,Polysulfones,CC1=CC(=CC(C)=C1*)C(C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C(C)=C1)(C(F)(F)F)C(F)(F)F,70.65,72.0,18.0,4.0,1.6085
+Perm400,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(C=C1C)C1=CC(C)=C(*)C(C)=C1,350.0,360.0,67.0,16.5,15.0
+Perm401,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(C=C1C)C1=CC(C)=C(N2C(=O)C3=C(C=C(C=C3)C(C)(C)C3=CC4C(C=C3)C(=O)N(*)C4=O)C2=O)C(C)=C1,,234.0,55.0,13.4,12.3
+Perm402,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(N2C(=O)C3=C(C=C(OC4=CC(=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C=C4C(C)(C)C)C(C)(C)C)C=C3)C2=O)C(C)=C1,150.0,95.0,22.0,4.9,5.6
+Perm403,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(N2C(=O)C3=C(C=C(OC4=CC(C)=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C(C)=C4C)C=C3)C2=O)C(C)=C1,55.0,39.0,6.5,1.2,1.2
+Perm404,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(N2C(=O)C3=CC4=C(C=C3C2=O)S(=O)(=O)C2=CC3=C(C=C2S4(=O)=O)C(=O)N(*)C3=O)C(C)=C1,58.0,39.0,6.6,1.33,1.21
+Perm405,Polyimides and Polypyrrolones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C(=O)OC2=CC=C(C=C2)C(C2=CC=C(OC(=O)C3=CC4=C(C=C3)C(=O)N(*)C4=O)C=C2)(C(F)(F)F)C(F)(F)F)C(C)=C1,38.0,,3.02,0.549,
+Perm406,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC(C)=C1*)C1=CC(C)=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(O*)C=C2)C(C)=C1,,19.4,4.76,0.971,1.021
+Perm407,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC(C)=C1*)C1=CC(C)=C(OC2=CC=C(C=C2)C(=O)C2=CC=CC=C2C2=C(C=CC=C2)C(=O)C2=CC=C(O*)C=C2)C(C)=C1,,6.96,1.86,0.291,0.264
+Perm408,Polysulfones,CC1=CC(=CC(C)=C1*)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C(C)=C1,,31.8,5.8,1.208,1.272
+Perm409,Polyamides and poly(amide-imides),CC1=CC(=CC(C)=C1N*)C(C)(C)C1=CC(C)=C(NC(=O)C2=CC=C(OC3=C(C=C(OC4=CC=C(C=C4)C(*)=O)C(=C3)C(C)(C)C)C(C)(C)C)C=C2)C(C)=C1,,43.0,9.38,1.73,2.24
+Perm410,Polysulfones,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(=CC=C1)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(C)=C1,20.0,7.0,1.8,0.2805,0.28
+Perm411,Polycarbonates,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(*)=O)C(C)=C1,32.0,18.6,5.6,1.1,0.89
+Perm412,Polyarylates,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C(C)=C1,96.0,45.3,12.65,2.6,2.7155
+Perm413,Polyarylates,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC(=CC=C2)C(=O)O*)C(C)=C1,,24.0,3.5,0.68,0.53
+Perm414,Polyarylates,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC=C(C=C2)C(=O)O*)C(C)=C1,,4.7,7.3,1.43,1.32
+Perm415,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C(C)=C1,52.0,20.0,5.6,1.1,1.1
+Perm416,Polysulfones,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(C)=C1,,21.0,5.6,1.06,0.95
+Perm417,Polysulfones,CC1=CC(=CC(C)=C1O*)C(C)(C)C1=CC=C(C=C1)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(C)=C1,,13.2,3.2,0.5705,0.6
+Perm418,Polycarbonates,CC1=CC(=CC(C)=C1O*)C(C1=CC(C)=C(OC(*)=O)C(C)=C1)(C(F)(F)F)C(F)(F)F,126.0,71.5,20.85,4.75,2.7945
+Perm419,Polysulfones,CC1=CC(=CC(C)=C1O*)C(C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(C)=C1)(C(F)(F)F)C(F)(F)F,,72.0,18.0,4.0,3.0
+Perm420,Polyarylates,CC1=CC(=CC(C)=C1O*)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC(C)=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C(C)=C1,,110.0,28.1,6.0,6.55
+Perm421,Polysulfones,CC1=CC(=CC(C)=C1O*)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C(C)=C1,11.05,18.65,4.55,0.91,0.925
+Perm422,Polyimides and Polypyrrolones,CC1=CC(=CC(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=C(C)C(C)=C(*)C(C)=C2C)=C1OC1=CC=C2C(=O)N(*)C(=O)C2=C1)C(C)(C)C,110.0,67.0,13.0,2.5,2.2
+Perm423,Vinyl and Vinylidene Polymers,CC1=CC(=CC=C1)C(=O)OC(*)C*,,2.13,0.496,0.0875,0.118
+Perm424,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC=C1)C1=CC(O*)=CC=C1OC1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,3.8,1.0,0.2,0.029,0.024
+Perm425,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC=C1)C1=CC(O*)=CC=C1OC1=CC=CC(*)=C1C#N,6.8,1.9,0.45,0.07,0.05
+Perm426,Polysulfones,CC1=CC(=CC=C1*)C(C)(C)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,2.1,0.64,0.0914,0.0706
+Perm427,Polysulfones,CC1=CC(=CC=C1*)C1(CCCCC1)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,1.4,0.41,0.0569,0.0393
+Perm428,Polyimides and Polypyrrolones,CC1=CC(=CC=C1*)C1=CC=C(N2C(=O)C3=CC=C(C=C3C2=O)[Si](C)(C)C2=CC=C3C(=O)N(*)C(=O)C3=C2)C(C)=C1,10.9,,0.663,0.094,
+Perm429,Polyamides and poly(amide-imides),CC1=CC(=CC=C1NC(=O)C1=CC=C(OC2=C(C=C(OC3=CC=C(C=C3)C(*)=O)C(=C2)C(C)(C)C)C(C)(C)C)C=C1)C(C)(C)C1=CC(C)=C(N*)C=C1,,21.0,4.5,0.81,0.9
+Perm430,Polysulfones,CC1=CC(=CC=C1O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC(C)=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,10.8,3.12,0.868,0.11,0.0727
+Perm431,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC(=CC=C1O*)C1(OC(=O)C2C=CC=CC12)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C(C)=C1,10.3,2.6,0.87,0.0978,0.0701
+Perm432,Polyarylates,CC1=CC(=CC=C1OC(=O)C1=CC=C(C=C1)C(=O)O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC(C)=C(O*)C=C1,,5.0,1.04,0.15,0.18
+Perm433,Polyimides and Polypyrrolones,CC1=CC(C)=C(*)C(C)=C1N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,496.0,471.0,104.5,29.9,24.2
+Perm434,Polyimides and Polypyrrolones,CC1=CC(C)=C(*)C(C)=C1N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,210.0,182.0,32.0,7.5,8.0
+Perm435,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C(C=C3)C(=O)C3=CC=C4C(=O)N(*)C(=O)C4=C3)C2=O)C(C)=C1*,46.4,,5.0,1.0,
+Perm436,Polyimides_NEW,CC1=CC(C)=C(N2C(=O)C3=C(C=C(C=C3)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)C2=O)C(C)=C1*,461.5,464.5,100.2,28.45,24.55
+Perm437,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C(C=C3)C(C3=CC=C4C(=O)N(*)C(=O)C4=C3)(C(F)(F)F)C(F)(F)F)C2=O)C(C)=C1*,344.0,370.0,85.75,21.75,17.6
+Perm438,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C(C=C3)S(=O)(=O)C3=CC=C4C(=O)N(*)C(=O)C4=C3)C2=O)C(C)=C1*,47.1,,5.69,1.02,
+Perm439,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C(OC4=CC=C(OC5=CC=C6C(=O)N(*)C(=O)C6=C5)C=C4)C=C3)C2=O)C(C)=C1*,40.0,,4.42,0.732,
+Perm440,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C(SC4=CC=C5C(=O)N(*)C(=O)C5=C4)C=C3)C2=O)C(C)=C1*,68.6,,8.2,1.62,
+Perm441,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=C(C=C4C(=O)N(*)C(=O)C4=C3)C2=O)C(C)=C1*,235.4,,36.3,8.44,
+Perm442,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C(=O)C2=CC3C(C=C2)C(=O)N(*)C3=O)C(C)=C1*,70.0,30.9,8.16,1.55,1.25
+Perm443,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C(C)=C1*,500.0,556.0,110.0,30.1,24.5
+Perm444,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C(C)=C1*,,299.0,55.0,17.0,15.1
+Perm445,Polyimides and Polypyrrolones,CC1=CC(C)=C(N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3C(C=C2)C(=O)N(*)C3=O)C(C)=C1*,202.0,137.0,34.7,8.42,8.08
+Perm446,Parylenes,CC1=CC(C*)=CC=C1C*,0.994,0.265,0.0572,0.0157,
+Perm447,Polyimides and Polypyrrolones,CC1=+C440C2=CC(C)=C(*)C3=C2C=CC=C3)=C2C=CC=CC2=C1N1C(=O)C2=C(C=C(C=C2)C(C)(C)C2=CC3C(C=C2)C(=O)N(*)C3=O)C1=O,,958.0,141.0,37.1,39.9
+Perm448,Polymers with High Free Volume,CC1=CC(C2=CC(C)=C(*)C3=C2C=CC=C3)=C2C=CC=CC2=C1N1C(=O)C2=CC3=C(C=C2C1=O)C1(C)C2=CC4=C(C=C2C3(C)C2=C1C=CC=C2)C(=O)N(*)C4=O,2740.0,3350.0,696.0,158.0,187.0
+Perm449,Polymers with High Free Volume,CC1=CC(C2=CC(C)=C(*)C3=C2C=CC=C3)=C2C=CC=CC2=C1N1C(=O)C2=CC3=C(C=C2C1=O)C1(CC(C)(C)C2=CC4=C(C=C12)C(=O)N(*)C4=O)CC3(C)C,1615.0,4032.0,640.0,212.0,359.0
+Perm450,High Temperature Polymers,CC1=CC(C2=CC(C)=C(*)C3=C2C=CC=C3)=C2C=CC=CC2=C1N1C(=O)C2=CC3=C(OC4=CC5=C(C=C4O3)C(C)(C)CC53CC(C)(C)C4=CC5=C(OC6=CC7=C(C=C6O5)C(=O)N(*)C7=O)C=C34)C=C2C1=O,1310.0,2985.0,432.5,130.0,215.0
+Perm451,Polymers with High Free Volume,CC1=CC(C2=CC(C)=C(N3C(=O)C4=CC5=C(C=C4C3=O)C3(C)CCC5(C)C4=CC5=C(C=C34)C(=O)N(*)C5=O)C3=C2C=CC=C3)=C2C=CC=CC2=C1*,3545.0,5285.0,1019.5,250.0,306.5
+Perm452,Polyimides and Polypyrrolones,CC1=CC(CC2=CC(C)=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)=CC=C1*,,8.75,2.51,0.406,0.198
+Perm453,Polyimides and Polypyrrolones,CC1=CC(CC2=CC(C)=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)=CC=C1*,,1.41,0.369,0.0483,0.0278
+Perm454,Polyimides and Polypyrrolones,CC1=CC(CC2=CC(C)=C(N3C(=O)C4=CC5=C(C=C4C3=O)C(=O)N(*)C5=O)C(C)=C2)=CC(C)=C1*,,97.6,27.4,7.08,8.21
+Perm455,Polyimides and Polypyrrolones,CC1=CC(CC2=CC(C)=C(N3C(=O)C4=CC=C(C=C4C3=O)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)C(C)=C2)=CC(C)=C1*,,43.9,10.3,2.13,1.45
+Perm456,Polyimides and Polypyrrolones,CC1=CC(CC2=CC(C)=C(N3C(=O)C4=CC=C(C=C4C3=O)C3=CC4=C(C=C3)C(=O)N(*)C4=O)C(C)=C2)=CC(C)=C1*,,22.4,4.73,0.913,0.818
+Perm457,Polysulfones,CC1=CC(CC2=CC(C)=C(OC3=CC=C(C=C3)S(=O)(=O)C3=CC=C(O*)C=C3)C(C)=C2)=CC(C)=C1*,34.5,15.0,3.3,0.611,0.577
+Perm458,Polyimides and Polypyrrolones,CC1=CC(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=C(C)C(*)=CC(C)=C2C)=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1,41.0,22.0,3.9,0.65,0.57
+Perm459,Polyimides and Polypyrrolones,CC1=CC(OC2=CC3=C(C=C2)C(=O)N(C3=O)C2=C(C)C(C)=C(*)C(C)=C2C)=C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1,41.0,20.0,3.5,0.59,0.47
+Perm460,Polyimides_NEW,CC1=CC(OC2=CC=C(C=C2)C2(C3=C(C=CC=C3)C3=C2C=CC=C3)C2=CC=C(OC3=CC=C(N4C(=O)C5=C(C=C(C=C5)C(C5=CC=C6C(=O)N(*)C(=O)C6=C5)(C(F)(F)F)C(F)(F)F)C4=O)C(C)=C3)C=C2)=CC=C1*,47.29,11.69,3.62,0.73,0.34
+Perm461,Polyimides_NEW,CC1=CC(OC2=CC=C(C=C2)C2(OC(=O)C3=CC=CC=C23)C2=CC=C(OC3=CC=C(N4C(=O)C5=C(C=C(C=C5)C(C5=CC6=C(C=C5)C(=O)N(*)C6=O)(C(F)(F)F)C(F)(F)F)C4=O)C(C)=C3)C=C2)=CC=C1*,,21.35,5.715,1.1,0.56
+Perm462,Polyimides_NEW,CC1=CC2=C(C3C4=C(C=CC=C4)C2C2=C3C(C)=C(N3C(=O)C4=C(C=C(C=C4)C(C4=CC=C5C(=O)N(*)C(=O)C5=C4)(C(F)(F)F)C(F)(F)F)C3=O)C(C)=C2)C(C)=C1*,1400.0,1727.0,374.0,113.0,121.0
+Perm463,Polyimides_NEW,CC1=CC2=C(C3C4=C(C=CC=C4)C2C2=C3C(C)=C(N3C(=O)C4=C(C=C5C(=O)N(*)C(=O)C5=C4)C3=O)C(C)=C2)C(C)=C1*,2375.0,3361.0,680.0,180.0,238.0
+Perm464,Polyimides_NEW,CC1=CC2=C(C3C4=C(C=CC=C4)C2C2=C3C(C)=C(N3C(=O)C4=CC=C5C(=O)N(*)C(=O)C6=C5C4=C(C=C6)C3=O)C(C)=C2)C(C)=C1*,1484.0,1861.0,390.0,97.0,122.0
+Perm465,Polyimides_NEW,CC1=CC2=C(C3C4=C(C=CC=C4)C2C2=C3C(C)=C(N3C(=O)C4C(C5C=CC4C4C5C(=O)N(*)C4=O)C3=O)C(C)=C2)C(C)=C1*,1596.0,1313.0,308.0,71.0,69.0
+Perm466,Polyimides and Polypyrrolones,CC1=CC2=C(C=C1*)S(=O)(=O)C1=CC(N3C(=O)C4=CC5=C(C=C4C3=O)S(=O)(=O)C3=CC4=C(C=C3S5(=O)=O)C(=O)N(*)C4=O)=C(C)C=C21,,24.0,,0.7,0.59
+Perm467,Polyimides and Polypyrrolones,CC1=CC2=C(C=C1*)S(=O)(=O)C1=CC(N3C(=O)C4=CC=C(C=C4C3=O)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)=C(C)C=C21,156.0,73.45,16.5,3.265,1.735
+Perm468,Polyimides and Polypyrrolones,CC1=CC2=C(C=C1*)S(=O)(=O)C1=CC(N3C(=O)C4=CC=C(C=C4C3=O)C3=CC4=C(C=C3)C(=O)N(*)C4=O)=C(C)C=C21,,2.74,0.577,0.0763,0.037
+Perm469,Polyimides and Polypyrrolones,CC1=CC2=C(C=C1*)S(=O)(=O)C1=CC(N3C(=O)C4=CC=C(C=C4C3=O)S(=O)(=O)C3=CC4=C(C=C3)C(=O)N(*)C4=O)=C(C)C=C21,45.4,14.1,3.29,0.37,0.244
+Perm470(ladder),Polymers with High Free Volume,CC1=CC2=C(C=C1C)C1(C3=C(C=C(C)C(C)=C3)C3=C1C=C1OC4=C(OC1=C3)C(C#N)=C(*)C(*)=C4C#N)C1=C2C=C(O*)C(O*)=C1,6700.0,13085.0,2365.0,658.0,1102.0
+Perm471,Polyimides_NEW,CC1=CC2=C(C=C1OC1=CC=C(*)C=C1)C(C)(C)CC1(CC(C)(C)C3=CC(OC4=CC=C(*)C=C4)=C(C)C=C3O1)O2,,29.27,6.17,1.33,0.77
+Perm472,Polyimides and Polypyrrolones,CC1=CC2C(C=C1*)S(=O)(=O)C1=C2C=C(C)C(=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,179.0,91.0,23.5,5.14,2.51
+Perm473,Polyimides and Polypyrrolones,CC1=CC=C(C)C(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)=C1OC1=CC2=C(C=C1)C(=O)N(C2=O)C1=C(C)C(C)=C(*)C(C)=C1C,100.0,63.0,11.0,2.05,1.9
+Perm474,Substituted Polyacetylenes,CC1=CC=C(C=C1)C(*)=C(*)C1=CC=C2C(=C1)C(C)(C)CC2(C)C,10800.0,16900.0,5700.0,4100.0,10100.0
+Perm475,Vinyl and Vinylidene Polymers,CC1=CC=C(C=C1)C(*)C*,,29.8,7.2,1.5,2.2
+Perm476,Poly(aryl ethers) and Poly(aryl ether ketones),CC1=CC=C(C=C1)C(=O)C1=C(*)C=C(C)C(O*)=C1C,,21.4,7.36,2.42,1.49
+Perm477,Vinyl and Vinylidene Polymers,CC1=CC=C(C=C1)C(=O)OC(*)C*,,6.73,1.72,0.339,0.417
+Perm478(ladder),Polymers with High Free Volume,CC1=CC=C(C=C1)C1=C(C2=CC=C(C)C=C2)C(C2=CC=C3OC4=C(OC3=C2)C(C#N)=C(*)C(*)=C4C#N)=C(C2=CC=C(C)C=C2)C(C2=CC=C(C)C=C2)=C1C1=CC=C(O*)C(O*)=C1,856.0,1630.0,256.0,60.0,132.0
+Perm479,Polynorbornenes,CC1=CC=C(C=C1)S(=O)(=O)OCC1CC(CC1*)\C=C/*,,,0.37,0.06,
+Perm480,Polyimides and Polypyrrolones,CC1=CC=C(OC2=CC3=C(C=C2C2=C(OC4=CC=C(C)C=C4)C=C4C(=O)N(C(=O)C4=C2)C2=CC=C(OC4=CC=C(*)C=C4)C=C2)C(=O)N(*)C3=O)C=C1,,44.0,4.99,1.25,1.45
+Perm481,Polyimides and Polypyrrolones,CC1=CC=CC(OC2=CC=C3C(=O)N(*)C(=O)C3=C2)=C1OC1=CC2=C(C=C1)C(=O)N(C2=O)C1=C(C)C(C)=C(*)C(C)=C1C,51.0,27.0,4.8,0.83,0.7
+Perm482,Vinyl and Vinylidene Polymers,CC1=CC=CC=C1C(=O)OC(*)C*,,2.23,0.47,0.0859,0.115
+Perm483,Poly(aryl ethers) and Poly(aryl ether ketones),CC1CC(*)C(Br)C(C)C1O*,,66.75,,,3.68
+Perm484,Poly(aryl ethers) and Poly(aryl ether ketones),CC1CC(*)C(C(C)C1O*)S(O)(=O)=O,,13.8,0.98,0.16,
+Perm485,Poly(aryl ethers) and Poly(aryl ether ketones),CC1CC(C)(C)CC(C1)(C1=CC2C(C=C1)C(=O)N(C2=O)C1=CC=C(O*)C=C1)C1=CC=C2C(=C)N(C(=C)C2=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C3C(=C2)C(C)(C)CC3(C)C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,36.0,18.9,3.58,0.64,
+Perm486,Carbon Molecular Sieves,CC1N(*)C=CN1[Zn]*,,,,,
+Perm487,Vinyl and Vinylidene Polymers,CCC(C)OC(=O)C(*)C(*)C(=O)OC(C)(C)C,145.0,,39.0,13.0,
+Perm488,Vinyl and Vinylidene Polymers,CCC(C)OC(=O)C(*)C(*)C(=O)OC(C)C,51.0,,12.0,5.0,
+Perm489,Polyphosphazenes,CCC(C)OP(*)(OC(C)CC)=N*,95.0,177.0,40.7,13.4,39.1
+Perm490(ladder),Polymers with High Free Volume,CCC1(C)CC2(C(C)C(C)(CC)C3=CC4=C(OC5=C(O4)C(C#N)=C(*)C(*)=C5C#N)C=C23)C2=CC(O*)=C(O*)C=C12,2100.0,6100.0,820.0,320.0,580.0
+Perm491,Parylenes,CCC1=CC(C*)=CC=C1C*,4.31,1.89,0.5,0.0904,
+Perm492,Polyamides and poly(amide-imides),CCC1=CC(CC)=C(N2COC3=C(C2)C=CC=C3)C(C)=C1N1COC2=C(C1)C=CC=C2,,32.9,5.7,1.12,
+Perm493,Polypropynes & Polyalkynes,CCCC(*)=C(C)*,160.0,120.0,39.0,12.0,21.0
+Perm494,Substituted Polyacetylenes,CCCCC1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,,160.0,37.0,11.0,
+Perm495,Polypropynes & Polyalkynes,CCCCCC(*)=C(C)*,150.0,200.0,57.0,21.0,51.0
+Perm496,Polypropynes & Polyalkynes,CCCCCCC(*)=C(C)*,140.0,230.0,60.0,23.0,64.0
+Perm497,Polypropynes & Polyalkynes,CCCCCCCC(*)=C(C)*,145.0,290.0,72.5,29.0,83.5
+Perm498,Conjugated Polymers (excl. subst. acetylenes/propynes),CCCCCCCCCCCCC1=C(*)SC(*)=C1,,88.2,20.2,9.4,
+Perm499,Conjugated Polymers (excl. subst. acetylenes/propynes),CCCCCCCCCCCCCCCCCC[Si](C)(C)C1=CC(*)=CC=C1\C=C\*,,61.0,12.0,4.5,
+Perm500,Vinyl and Vinylidene Polymers,CCCCCCCCCCCCCCOC(=O)C(*)C*,96.2,297.0,57.1,22.1,65.1
+Perm501,Vinyl and Vinylidene Polymers,CCCCCCCCCCOC(=O)C(*)C*,92.7,261.0,47.6,19.0,47.8
+Perm502,Polypropynes & Polyalkynes,CCCCCCCCCCSC#CC,78.0,190.0,46.0,16.0,58.0
+Perm503,Polypropynes & Polyalkynes,CCCCCCCCSC#CC,91.0,180.0,50.0,19.0,48.0
+Perm504,Silicone rubber and variants,CCCCCCCC[Si](C)(*)O*,,932.0,196.0,88.3,313.0
+Perm505,Polypropynes & Polyalkynes,CCCCCCCC[Si](C)(C)C(\*)=C(\C)*,47.0,100.0,23.0,19.0,13.0
+Perm506,Conjugated Polymers (excl. subst. acetylenes/propynes),CCCCCCCC[Si](C)(C)C1=CC(*)=CC=C1\C=C\*,,60.0,12.0,3.9,
+Perm507,Substituted Polyacetylenes,CCCCCCCC[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)C(C)(C)C,,100.0,26.0,7.5,
+Perm508,Substituted Polyacetylenes,CCCCCCCC[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)C(C)C,,120.0,29.0,9.1,
+Perm509,Substituted Polyacetylenes,CCCCCCCC[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(CCCC)C=C1,,110.0,25.0,7.9,
+Perm510,Polypropynes & Polyalkynes,CCCCCCSC#CC,76.0,150.0,38.0,14.0,45.0
+Perm511,Silicone rubber and variants,CCCCCC[Si](C)(*)O*,,,236.0,103.0,
+Perm512,High Temperature Polymers,CCCCN1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(CCCC)C(=N2)C1=CC(=CC(*)=C1)C(C)(C)C,,,,,
+Perm513,High Temperature Polymers,CCCCN1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(CCCC)C(=N2)C1=CC=CC(*)=C1,,,,,
+Perm514,Polyphosphazenes,CCCCOP(*)(OCCCC)=N*,170.0,647.0,128.0,55.9,196.0
+Perm515,Polypropynes & Polyalkynes,CCCCSC#CC,69.0,160.0,79.0,18.0,89.0
+Perm516,Polypropynes & Polyalkynes,CCCC[Si](C)(C)C(\*)=C(\C)*,65.0,100.0,29.0,8.0,17.0
+Perm517,Conjugated Polymers (excl. subst. acetylenes/propynes),CCCC[Si](C)(C)C1=CC(*)=CC=C1\C=C\*,,14.0,3.5,1.1,
+Perm518,Silicone rubber and variants,CCC[Si](C)(*)O*,,2303.0,394.0,182.0,570.0
+Perm519,Polypropynes & Polyalkynes,CCC[Si](C)(C)C(\*)=C(\C)*,250.0,230.0,70.0,21.0,44.0
+Perm520,Polyimides and Polypyrrolones,CCN1C2C=CC(*)=CC2C2=C1C=CC(=C2)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,81.3,33.8,9.12,1.75,1.03
+Perm521,Vinyl and Vinylidene Polymers,CCOC(=O)C(*)C*,60.4,176.0,19.0,6.46,14.9
+Perm522,Vinyl and Vinylidene Polymers,CCOC(=O)C(C)(*)C*,21.8,6.025,1.52,0.276,0.347
+Perm523,Conjugated Polymers (excl. subst. acetylenes/propynes),CCOC1=C(N*)C=CC(*)=C1,8.1,2.22,0.62,0.107,
+Perm524,Cellulosic Polymers,CCOC1C(*)C(COC(=O)NC(C)(C)C)OC(O*)C1OCC,73.0,94.5,16.0,4.3,9.45
+Perm525,Cellulosic Polymers,CCOCC1OC(CO*)C(OCC)C(OCC)C1*,54.4,67.7,11.9,3.18,6.1
+Perm526,Cellulosic Polymers,CCOCC1OC(O*)C(OCC)C(OCC)C1*,68.0,91.0,15.0,4.3,9.2
+Perm527,Vinyl and Vinylidene Polymers,CCOCCOC(=O)C(C)(*)C*,,8.56,1.45,0.385,1.23
+Perm528,Vinyl and Vinylidene Polymers,CCOCCOCCOC(=O)C(C)(*)C*,,133.0,11.4,3.6,11.4
+Perm529,Vinyl and Vinylidene Polymers,CCOCCOCCOCCOC(=O)C(C)(*)C*,,74.4,3.9,2.0,4.8
+Perm530,Polypropynes & Polyalkynes,CCSC#CC,90.0,160.0,30.0,9.0,20.0
+Perm531,Silicone rubber and variants,CC[Si](C)(*)O*,,1506.0,331.5,160.0,474.0
+Perm532,Polypropynes & Polyalkynes,CC[Si](C)(C)C(\*)=C(\C)*,1930.0,4600.0,970.0,490.0,1200.0
+Perm533,Conjugated Polymers (excl. subst. acetylenes/propynes),CC[Si](CC)(CC)C1=CC(*)=CC=C1\C=C\*,,24.0,6.6,1.8,
+Perm534,Conjugated Polymers (excl. subst. acetylenes/propynes),CN1C(*)=CC=C1*,,6.9,2.04,0.33,0.22
+Perm535,High Temperature Polymers,CN1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(C)C(=N2)C1=CC(=CC(*)=C1)C(C)(C)C,,,,,
+Perm536,High Temperature Polymers,CN1C(*)=NC2=C1C=CC(=C2)C1=CC2=C(C=C1)N(C)C(=N2)C1=CC=CC(*)=C1,,,,,
+Perm537,Vinyl and Vinylidene Polymers,COC(=O)C(*)C*,10.6,8.19,1.06,0.2135,0.2625
+Perm538,Vinyl and Vinylidene Polymers,COC(=O)C(C)(*)C*,4.1,0.3505,0.08855,0.01135,0.00565
+Perm539,Polysulfones,COC(C1=CC(=CC=C1*)C(C)(C)C1=CC(=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1)C(OC)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F,,7.7,2.0,0.26,
+Perm540,Conjugated Polymers (excl. subst. acetylenes/propynes),COC1=C(N*)C=CC(*)=C1,6.04,1.06,0.202,0.047,
+Perm541,Polyimides and Polypyrrolones,COC1=CC(=CC=C1*)C1=CC=C(N2C(=O)C3=CC=C(C=C3C2=O)[Si](C)(C)C2=CC=C3C(=O)N(*)C(=O)C3=C2)C(OC)=C1,9.33,,0.53,0.096,
+Perm542,Polyimides and Polypyrrolones,COC1=CC(=CC=C1N1C(=O)C2=C(C=C(OC3=C(OC4=CC=C5C(=O)N(*)C(=O)C5=C4)C=CC(=C3)C(C)(C)C)C=C2)C1=O)C1=CC(OC)=C(*)C=C1,22.0,6.7,1.4,0.21,0.16
+Perm543,Vinyl and Vinylidene Polymers,COC1=CC=C(C=C1)C(*)C*,,18.9,2.6,0.61,0.91
+Perm544,Polyimides and Polypyrrolones,COC1=CC=C(C=C1)N(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O,,16.82,4.28,0.89,0.5
+Perm545,Polyimides and Polypyrrolones,COC1=CC=C(C=C1)N(C1=CC=C(OC)C=C1)C1=CC=C(C=C1)N(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O,,12.97,2.94,0.59,0.4
+Perm546,Polyphosphazenes,COCCOCCOP(*)(OCCOCCOC)=N*,25.0,250.0,7.0,4.0,11.0
+Perm547,Polyphosphazenes,CP(*)(=N*)C1=CC=CC=C1,,6.5,1.8,0.6,0.7
+Perm548,Polyphosphazenes,CP(C)(*)=N*,,29.4,3.53,1.27,
+Perm549,Polynorbornenes,C[Ge](C)(C)C1CC2C1C1CC2C(*)C1*,,,,,620.0
+Perm550,Substituted Polyacetylenes,C[Ge](C)(C)C1CCCCC1C(*)=C*,310.0,280.0,94.0,39.5,53.5
+Perm551,Silicone rubber and variants,C[Si](*)(CCC(F)(F)F)O*,,1388.0,200.0,88.3,201.0
+Perm552,Silicone rubber and variants,C[Si](*)(O*)C1=CC=CC=C1,,239.0,28.8,8.59,36.0
+Perm553,Silicone rubber and variants,C[Si](C)(*)C*,,549.0,99.0,37.95,130.0
+Perm554,Silicone rubber and variants,C[Si](C)(*)C1=CC(=CC=C1)[Si](C)(C)*,,,75.6,31.9,
+Perm555,Silicone rubber and variants,C[Si](C)(*)C1=CC=C(C=C1)[Si](C)(C)*,,,14.1,3.39,
+Perm556,Various Polymers,C[Si](C)(*)C1=CC=C(C=C1)[Si](C)(C)CC*,,4.01,1.11,0.257,0.53
+Perm557,Silicone rubber and variants,C[Si](C)(*)C1=CC=C(C=C1)[Si](C)(C)O*,,65.0,11.0,,12.0
+Perm558,Silicone rubber and variants,C[Si](C)(*)C1=CC=CC(=C1)[Si](C)(C)O*,,518.0,74.0,,106.0
+Perm559,Silicone rubber and variants,C[Si](C)(*)C=C[Si](C)(C)O*,,,42.3,186.0,
+Perm560,Various Polymers,C[Si](C)(*)CCC*,,,9.5,3.0,8.4
+Perm561,Silicone rubber and variants,C[Si](C)(*)CCCCCCCC[Si](C)(C)*,,,188.0,76.2,
+Perm562,Silicone rubber and variants,C[Si](C)(*)CCCCCCCC[Si](C)(C)O*,,1199.0,237.0,,360.0
+Perm563,Silicone rubber and variants,C[Si](C)(*)CCCCCC[Si](C)(C)*,,,182.0,81.0,
+Perm564,Silicone rubber and variants,C[Si](C)(*)CCCCCC[Si](C)(C)O*,,1306.0,265.0,,395.0
+Perm565,Silicone rubber and variants,C[Si](C)(*)CC[Si](C)(C)O*,,1883.0,394.0,,597.0
+Perm566,Silicone rubber and variants,C[Si](C)(*)O*,890.0,4176.5,800.0,351.0,1353.0
+Perm567,Vinyl and Vinylidene Polymers,C[Si](C)(C(*)C*)C1=CC=CC=C1,,12.3,2.47,0.45,
+Perm568,Vinyl and Vinylidene Polymers,C[Si](C)(C)C(*)C*,200.0,190.0,44.0,11.0,18.0
+Perm569,Vinyl and Vinylidene Polymers,C[Si](C)(C)C(C1=CC=C(C=C1)C(*)C*)[Si](C)(C)C,,150.0,37.7,10.1,
+Perm570,Polypropynes & Polyalkynes,C[Si](C)(C)C1=CC(=CC=C1)C(*)=C(*)C1=CC=CC=C1,2100.0,4700.0,1200.0,610.0,1500.0
+Perm571,Substituted Polyacetylenes,C[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC2=C(C=C1)C1=C(C2)C=CC=C1,3100.0,6450.0,1650.0,950.0,2000.0
+Perm572,Substituted Polyacetylenes,C[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC2=C(C=C1)C1=C(C=CC=C1)C=C2,900.0,2100.0,460.0,190.0,500.0
+Perm573,Substituted Polyacetylenes,C[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C2C3=C(C=CC=C3)C3(CC3)C2=C1,1900.0,4100.0,1000.0,540.0,1500.0
+Perm574,Substituted Polyacetylenes,C[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C2CCCC2=C1,1100.0,2000.0,450.0,170.0,470.0
+Perm575,Polymers with High Free Volume,C[Si](C)(C)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,2600.0,4700.0,1200.0,550.0,1550.0
+Perm576,Vinyl and Vinylidene Polymers,C[Si](C)(C)C1=CC=C(C=C1)C(*)C*,182.0,227.0,56.0,16.0,34.0
+Perm577,Substituted Polyacetylenes,C[Si](C)(C)C1=CC=C(C=C1)C1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,810.0,2200.0,390.0,160.0,450.0
+Perm578,Polyphosphazenes,C[Si](C)(C)C1=CC=C(OP(*)(OC2=CC=CC=C2)=NP(OC2=CC=C(Br)C=C2)(OC2=CC=C(C=C2)[Si](C)(C)C)=N*)C=C1,,11.6,30.7,9.4,23.3
+Perm579,Polynorbornenes,C[Si](C)(C)C1C2C(C1[Si](C)(C)C)C1CC2C(*)C1*,4090.0,11280.0,2380.0,1240.0,3310.0
+Perm580,Polynorbornenes,C[Si](C)(C)C1CC(*)CC1\C=C\*,140.0,89.0,30.0,7.2,17.0
+Perm581,Polynorbornenes,C[Si](C)(C)C1CC2C1C1CC2C(*)C1*,2060.0,5300.0,990.0,390.0,1010.0
+Perm582,Polynorbornenes,C[Si](C)(C)C1CC2CC1C(*)C2*,6700.0,250.0,1700.0,2500.0,1090.0
+Perm583,Substituted Polyacetylenes,C[Si](C)(C)CC1=CC=C(C=C1)C(*)=C(*)C1=CC=CC=C1,420.0,640.0,140.0,44.0,120.0
+Perm584,Vinyl and Vinylidene Polymers,C[Si](C)(C)CC1=CC=C(C=C1)C(*)C*,54.0,79.75,19.95,25.8,7.8
+Perm585,High Temperature Polymers,C[Si](C)(C)CN1C2=C(C=C(C=C2)C2=CC3=C(C=C2)N(C(*)=N3)[Si](C)(C)C)N=C1C1=CC=CC(*)=C1,,,,,
+Perm586,Polynorbornenes,C[Si](C)(C)C[Si](C)(C)C1CC(*)CC1\C=C\*,73.0,67.0,16.0,3.7,8.5
+Perm587,Polynorbornenes,C[Si](C)(C)OC(O[Si](C)(C)C)(O[Si](C)(C)C)C1CC2C1C1CC2C(*)C1*,,,,,1250.0
+Perm588,Polynorbornenes,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)C1C2C(C1[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C)C(C*)CC2C*,460.0,840.0,220.0,75.0,215.0
+Perm589,Polynorbornenes,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)C1C2C(C1[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C)C(CC2C=*)C=*,690.0,1160.0,295.0,100.0,300.0
+Perm590,Polyimides and Polypyrrolones,C[Si](C)(C1=CC2=C(C=C1)C(=O)N(*)C2=O)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,11.7,,0.764,0.104,
+Perm591,Polyarylates,C[Si](C)(C1=CC=C(C=C1)C(*)=O)C1=CC=C(C=C1)C(*)=O,27.1,22.2,5.54,1.37,1.39
+Perm592,Polyimides and Polypyrrolones,C[Si](C)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(*)C=C1,9.4,2.75,0.6,0.105,0.064
+Perm593,Polyimides and Polypyrrolones,C[Si](C)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)C1=CC=C(*)C=C1,8.38,,0.677,0.109,
+Perm594,Polyimides and Polypyrrolones,C[Si](C)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,7.955,3.31,0.508,0.104,0.161
+Perm595,Polyphosphazenes,C[Si](C)(C1=CC=CC=C1)C1=CC=C(OP(*)(OC2=CC=CC=C2)=NP(OC2=CC=C(Br)C=C2)(OC2=CC=C(C=C2)[Si](C)(C)C2=CC=CC=C2)=N*)C=C1,,44.8,7.8,2.2,5.8
+Perm596,Vinyl and Vinylidene Polymers,C[Si](C)(CCCC(F)(F)F)C1=CC=C(C=C1)C(*)C*,109.0,284.0,38.1,11.8,22.0
+Perm597,Polyphosphazenes,C[Si](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=C(OP(*)(OC2=CC=CC=C2)=NP(OC2=CC=C(Br)C=C2)(OC2=CC=C(C=C2)[Si](C)(C2=CC=CC=C2)C2=CC=CC=C2)=N*)C=C1,,5.6,1.3,0.31,0.43
+Perm598,Polypropynes & Polyalkynes,C\C(*)=C(/*)C1=CC=C(C=C1)[Si](C)(C)C,510.0,950.0,240.0,100.0,200.0
+Perm599,Polypropynes & Polyalkynes,C\C(*)=C(/*)[Si](C)(C)C,15000.0,28550.0,9000.0,6600.0,15000.0
+Perm600,Polypropynes & Polyalkynes,C\C(*)=C(/*)[Si](C)(C)C1=CC=CC=C1,14.0,37.6,4.4,1.2,1.7
+Perm601,Hydrocarbon Elastomers,C\C(C*)=C(\C)C*,17.0,7.47,2.1,0.472,0.786
+Perm602,Hydrocarbon Elastomers,C\C(C*)=C\C*,49.0,153.0,23.3,8.75,29.55
+Perm603,Vinyl and Vinylidene Polymers,ClC(*)C*,1.79,0.16,0.0453,0.0109,0.0263
+Perm604,Hydrocarbon Elastomers,ClC(*)CCCC(*)S(Cl)(=O)=O,13.3,,3.285,0.955,
+Perm605,Vinyl and Vinylidene Polymers,ClC(Cl)(*)C*,,0.029,0.005195,0.000939,
+Perm606,Polycarbonates,ClC(Cl)=C(C1=CC=C(*)C=C1)C1=CC=C(OC(=O)O*)C=C1,11.35,6.5,1.4,0.26,0.27
+Perm607,Polyimides and Polypyrrolones,ClC1=CC(*)=CC=C1CC1=C(Cl)C=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,,0.335,0.0957,0.0107,0.0055
+Perm608,Parylenes,ClC1=CC(C*)=C(Cl)C=C1C*,,0.783,0.181,0.0271,
+Perm609,Parylenes,ClC1=CC(C*)=CC=C1C*,0.9315,0.0867,0.0456,0.006,
+Perm610,Polyimides and Polypyrrolones,ClC1=CC(CC2=CC(Cl)=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)=CC=C1*,,0.978,0.26,0.0307,0.0164
+Perm611,Vinyl and Vinylidene Polymers,ClC1=CC=C(C=C1)C(*)C*,,4.3,1.2,0.23,0.26
+Perm612,Hydrocarbon Elastomers,ClCC(*)CO*,,8.0,,0.24,0.657
+Perm613,Hydrocarbon Elastomers,ClCC(C*)O*,8.9,,1.05,0.44,
+Perm614,Hydrocarbon Elastomers,Cl\C(C*)=C\C*,20.55,25.65,4.0,2.07,3.28
+Perm615,Vinyl and Vinylidene Polymers,FC(*)C*,0.35,0.07915,0.0189,0.00155,
+Perm616,Perfluorinated Polymers,FC(F)(*)C(F)(Cl)CC*,,0.607,0.152,0.061,
+Perm617,Perfluorinated Polymers,FC(F)(*)C(F)(F)*,,12.7,4.9,,10.0
+Perm618,Perfluorinated Polymers,FC(F)(*)C(F)(F)CC*,,1.98,0.532,0.182,
+Perm619,Vinyl and Vinylidene Polymers,FC(F)(*)C*,0.538,0.517,0.0826,0.0223,0.02
+Perm620,Perfluorinated Polymers,FC(F)(*)C1(F)OC(F)(F)C(F)(F)C1(F)C(F)(F)*,59.0,35.0,16.0,5.0,2.0
+Perm621,Polyimides and Polypyrrolones,FC(F)(F)C(*)(C1=CC2=C(C=C1)C(=O)N1C3=C(C=C(C=C3)C3=CC4=C(C=C3)N=C3N4C(=O)C4=C3C=CC(*)=C4)N=C21)C(F)(F)F,74.4,,7.75,1.44,
+Perm622,Polyimides and Polypyrrolones,FC(F)(F)C(*)(C1=CC2=C(C=C1)C(=O)N1C3=C(C=C(OC4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=CC(*)=C5)C=C3)N=C21)C(F)(F)F,54.9,,5.04,0.81,
+Perm623,High Temperature Polymers,FC(F)(F)C(*)(C1=CC=C(C=C1)C1=CC=C(*)C=C1)C(F)(F)F,470.0,470.0,120.0,41.0,34.0
+Perm624,Thermally Rearranged Polymers,FC(F)(F)C(*)(C1=CC=C(C=C1)C1=NC2=C(O1)C=CC(=C2)C(C1=CC=C2OC(=NC2=C1)C1=CC=C(C=C1)C(C1=CC=C2C3=NC4=C(C=CC(=C4)C4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=C(*)C=C5)N3C(=O)C2=C1)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)C(F)(F)F,1989.0,1805.0,421.0,85.0,46.0
+Perm625,High Temperature Polymers,FC(F)(F)C(*)(C1=CC=CC=C1)C1=CC=C(C=C1)C1=CC=C(*)C=C1,114.0,166.0,25.0,6.6,10.0
+Perm626,High Temperature Polymers,FC(F)(F)C(*)(C1=CC=CC=C1)C1=CC=C(C=C1)C1=CC=C(C=C1)C1=CC=C(*)C=C1,126.0,220.0,32.0,9.0,13.0
+Perm627,High Temperature Polymers,FC(F)(F)C(*)(C1=CC=CC=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1,28.0,17.0,3.5,0.69,0.65
+Perm628,High Temperature Polymers,FC(F)(F)C(*)(C1=CC=CC=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1,11.0,4.2,0.91,0.15,
+Perm629(ladder),Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC(*)=C(C=C1)C(*)=O)(C1=CC=C2C3=NC4=CC5=C(C=C4N3C(=O)C2=C1)N(*)C(*)=N5)C(F)(F)F,,54.0,15.2,2.58,0.911
+Perm630,Polytriazole_NEW,FC(F)(F)C(C1=CC(*)=CC=C1)(C1=CC(=CC=C1)C1=NN=C(*)N1C1=CC=CC=C1)C(F)(F)F,,132.0,26.15,5.93,4.66
+Perm631,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC(*)=CC=C1)(C1=CC=CC(=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,1.05,0.39,0.047,0.014
+Perm632,Polycarbonates,FC(F)(F)C(C1=CC(Br)=C(O*)C(Br)=C1)(C1=CC(Br)=C(OC(*)=O)C(Br)=C1)C(F)(F)F,10.6,32.0,9.7,1.8,0.89
+Perm633,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC2=C(C=C1)C1C3=C(C=CC=C3)C2C2=C1C=C(*)C=C2)C(F)(F)F ,329.0,202.0,43.9,10.7,7.2
+Perm634,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC2=CC=C3OC4CC(C3=C2C=C1)C1=C(O4)C=CC2=C1C=CC(*)=C2)C(F)(F)F,60.15,26.3,5.85,1.1,0.6
+Perm635,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC2=CC=C3OC4OC5=CC=C6C=C(*)C=CC6=C5C4C3=C2C=C1)C(F)(F)F,73.0,29.9,7.2,1.2,0.7
+Perm636,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(*)C=C1)C(F)(F)F,,58.9,,3.3,1.96
+Perm637,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(OC2=C(C3=C(C=CC=C3)C=C2)C2=C(OC3=CC=C(*)C=C3)C=CC3=C2C=CC=C3)C=C1)C(F)(F)F,21.1,15.0,2.56,0.4,0.22
+Perm638,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=CC=C1OC1=C(C2=C(C=CC=C2)C=C1)C1=C(OC2=C(*)C=CC=C2)C=CC2=C1C=CC=C2)C(F)(F)F,6.86,4.88,0.99,0.13,0.07
+Perm639,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=C(Cl)C=C(CC2=CC=C(*)C(Cl)=C2)C=C1)C(F)(F)F,,6.78,1.81,0.269,0.121
+Perm640,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC(*)=CC=C1)C(F)(F)F,27.3,8.14,2.315,0.345,0.14
+Perm641,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC(=CC=C1)C(C1=CC=CC(*)=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,,5.1,1.8,0.261,0.08
+Perm642,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC2=C(C=C1)C1C3=C(C=CC=C3)C2C2=C1C=CC(*)=C2)C(F)(F)F,211.5,131.0,28.15,5.32,3.65
+Perm643,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC2=C(C=C1)C1C=CC(*)=CC1C2)C(F)(F)F,41.9,32.2,5.46,0.8805,0.63
+Perm644,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC2=C(C=C1)C1C=CC(*)=CC1C2=O)C(F)(F)F,33.9,7.68,2.34,0.339,0.129
+Perm645,Poly(imide‚àíoxadiazole)_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)C1=NN=C(O1)C1=CC=C(*)C=C1)C(F)(F)F,,15.6,,0.61,0.25
+Perm646,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(CC2=CC=C(*)C=C2)C=C1)C(F)(F)F,44.7,11.475,3.15,0.563,0.268
+Perm647,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,47.3,22.0,4.42,0.8275,0.5
+Perm648,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(SC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,23.11,4.66,0.87,0.66
+Perm649,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(SC2=CC=C(SC3=CC=C(*)C=C3)C=C2)C=C1)C(F)(F)F,,8.92,1.77,0.34,0.28
+Perm650,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(SC2=CC=C(SC3=CC=C(SC4=CC=C(*)C=C4)C=C3)C=C2)C=C1)C(F)(F)F,,8.37,1.72,0.37,0.22
+Perm651,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(SC2=CC=C(SC3=CC=C(SC4=CC=C(SC5=CC=C(*)C=C5)C=C4)C=C3)C=C2)C=C1)C(F)(F)F,,6.62,1.46,0.29,0.26
+Perm652,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(*)=C1)C(F)(F)F,43.65,11.25,3.255,0.4935,0.1865
+Perm653,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(OC2=CC(*)=CC=C2)=C1)C(F)(F)F,14.0,2.1,0.68,0.1,0.032
+Perm654(ladder),Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(*)\C2=N/*)(C1=CC=C2C(=C1)C(=O)N1C3=CC=CC(OC4=CC=C(*)C(*)=C4)=C3N=C21)C(F)(F)F,,27.6,7.9,1.215,0.54
+Perm655,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC(=CC=C1)C(C1=CC(*)=CC=C1)(C(F)(F)F)C(F)(F)F)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,,5.1,1.8,0.261,0.08
+Perm656,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(C=C1)N(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N(C1=CC=CC=C1)C1=CC=CC=C1)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,,11.77,1.97,0.45,1.24
+Perm657,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(CC2=CC=C(*)C=C2)C=C1)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,,19.0,4.6,0.81,0.42
+Perm658,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,,23.0,4.34,0.83,0.38
+Perm659,Polyimides_NEW,FC(F)(F)C(C1=CC2=C(C=C1)C(=O)N(C2=O)C1=CC=C(OC2=CC=C(C=C2)C2(C3=C(C=CC=C3)C3=C2C=CC=C3)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1)(C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,61.33,19.87,4.88,1.26,0.69
+Perm660,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC(*)=CC=C1)C(F)(F)F,40.2,9.2,3.01,0.447,0.16
+Perm661,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC(OC2=CC=CC(*)=C2)=CC=C1)C(F)(F)F,14.0,2.1,0.68,0.1,0.032
+Perm662,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(*)C=C1)C(F)(F)F,34.25,13.55,3.16,0.5895,0.233
+Perm663,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(C=C1)N(C1=CC=CC=C1)C1=CC=C(*)C=C1)C(F)(F)F,54.0,23.0,6.0,1.24,0.68
+Perm664,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(NC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,5.72,1.49,0.27,0.12
+Perm665,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(NC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,8.91,1.9,0.39,0.17
+Perm666,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(*)=C1)C(F)(F)F,20.3,8.23,2.61,0.363,0.14
+Perm667,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(NC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NC2=CC=C(*)C=C2)=C1)C(F)(F)F,,1.66,0.49,0.08,0.04
+Perm668,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(NC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NC2=CC=C(*)C=C2)=C1)C(F)(F)F,,3.64,1.0,0.2,0.09
+Perm669,High Temperature Polymers,FC(F)(F)C(C1=CC2N=C(*)OC2C=C1)(C1=CC=C2OC(=NC2=C1)C1=CC2=C(C=C1)C=C(*)C=C2)C(F)(F)F,24.0,4.7,1.44,0.21,0.097
+Perm670,High Temperature Polymers,FC(F)(F)C(C1=CC2N=C(*)OC2C=C1)(C1=CC=C2OC(=NC2=C1)C1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1)C(F)(F)F,37.0,11.4,3.3,0.55,0.28
+Perm671,High Temperature Polymers,FC(F)(F)C(C1=CC2N=C(OC2C=C1)C1=CC(*)=CC=C1)(C1=CC=C2OC(=NC2=C1)C1=CC=CC(*)=C1)C(F)(F)F,1228.0,1014.0,220.0,48.0,41.0
+Perm672,Thermally Rearranged Polymers,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)C1=NC2=C(O1)C=CC(=C2)C(C1=CC2=C(OC(*)=N2)C=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,3598.5,4884.5,1199.0,317.0,201.5
+Perm673,Thermally Rearranged Polymers,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)C1=NC2=C(O1)C=CC(=C2)C(C1=CC=C2OC(*)=NC2=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,4194.0,4201.0,1092.0,284.0,151.0
+Perm674,High Temperature Polymers,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)C1=NC2=CC(=CC=C2O1)C(C1=CC2N=C(*)OC2C=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,120.0,61.0,16.4,3.4,1.6
+Perm675,Polyoxadiazole_NEW,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)C1=NN=C(*)O1)C(F)(F)F,,123.0,,6.1,4.55
+Perm676,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O)C(F)(F)F,,64.0,16.0,3.4,1.6
+Perm677,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=C(C=C3C(=O)N(*)C(=O)C3=C2)C1=O)C(F)(F)F,59.1,27.7,7.1,1.39,0.78
+Perm678,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,7.3,1.86,0.3,0.156
+Perm679,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,7.3,1.9,0.31,0.155
+Perm680,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC=C2C(=O)N(*)C(=O)C2=C1)C(F)(F)F,30.8,27.7,2.5,0.45,0.226
+Perm681,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F)C(F)(F)F,,63.9,16.3,3.47,1.6
+Perm682,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,108.0,63.9,16.3,3.22,1.602
+Perm683,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,22.1,5.22,0.9785,0.6105
+Perm684,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,27.4,6.65,1.21,0.761
+Perm685,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(O*)C3=C2C=CC=C3)C=C1)C(F)(F)F,,6.04,1.85,0.325,0.21
+Perm686,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=CC(=C2)C2=CC=CC(=C2)C(=O)C2=CC=C(O*)C=C2)C=C1)C(F)(F)F,,1.95,0.61,0.0792,0.058
+Perm687,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=CC=C2C2=C(C=CC=C2)C(=O)C2=CC=C(O*)C=C2)C=C1)C(F)(F)F,,3.12,0.99,0.146,0.087
+Perm688,Polysulfones,FC(F)(F)C(C1=CC=C(*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1)C(F)(F)F,15.1,8.445,2.325,0.4315,0.3455
+Perm689,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC=C(C=C1)C(*)=O)(C1=CC=C(C=C1)C(=O)NC1=CC(N*)=CC=C1)C(F)(F)F,23.0,8.4,2.2,0.4,0.24
+Perm690,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC=C(N*)C=C1)(C1=CC=C(NC(=O)C2=CC(=CC(=C2)C2=CC=CC=C2)C(*)=O)C=C1)C(F)(F)F,42.0,21.0,5.5,1.2,0.78
+Perm691,Polyamides and poly(amide-imides),FC(F)(F)C(C1=CC=C(N*)C=C1)(C1=CC=C(NC(=O)C2=CC(=CC=C2)C(*)=O)C=C1)C(F)(F)F,29.0,9.0,2.4,0.42,0.2
+Perm692,Polycarbonates,FC(F)(F)C(C1=CC=C(O*)C=C1)(C1=CC=C(OC(*)=O)C=C1)C(F)(F)F,27.0,24.0,6.9,1.7,1.05
+Perm693,Polyesters,FC(F)(F)C(C1=CC=C(O*)C=C1)(C1=CC=C(OC(=O)C2=CC=C(C=C2)C(*)=O)C=C1)C(F)(F)F,,47.1,11.8,2.95,2.74
+Perm694,Polyesters,FC(F)(F)C(C1=CC=C(O*)C=C1)(C1=CC=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C=C1)C(F)(F)F,,14.9,4.2,0.89,0.61
+Perm695,Uncategorised,FC(F)(F)C(C1=CC=C(O*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(C=C2)C(C2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,31.4,11.5,3.7,0.76,0.477
+Perm696,Polysulfones,FC(F)(F)C(C1=CC=C(O*)C=C1)(C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1)C(F)(F)F,,12.0,3.4,0.67,0.55
+Perm697,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)(C1=CC=C(OC(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(*)C=C2)C=C1)C(F)(F)F,4.36,,0.251,0.0355,
+Perm698,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)(C1=CC=C(OC(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(C=C2)C2=CC=C(*)C=C2)C=C1)C(F)(F)F,5.01,,0.348,0.0517,
+Perm699,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)(C1=CC=C(OC(=O)C2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C=C1)C(F)(F)F,11.8,,0.917,0.164,
+Perm700,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC(=O)C2=CC3=C(C=C2)C(=O)N2C4=C(C=C(*)C=C4)N=C32)C=C1)(C1=CC=C(OC(=O)C2=CC=C3C4=NC5=C(C=C(*)C=C5)N4C(=O)C3=C2)C=C1)C(F)(F)F,13.3,,0.977,0.155,
+Perm701,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC(*)=CC=C2)C=C1)(C1=CC=C(OC2=CC(=CC=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,21.0,6.005,1.35,0.241,0.136
+Perm702,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC(=CC=C2)N2C(=O)C3=CC4C(C=C3C2=O)C(=O)N(*)C4=O)C=C1)(C1=CC=C(OC2=CC=CC(*)=C2)C=C1)C(F)(F)F,19.0,6.12,1.4,0.29,0.17
+Perm703,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)(C1=CC=C(OC2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(CC3=CC=C(*)C=C3)C=C2)C=C1)C(F)(F)F,8.31,,0.501,0.076,
+Perm704,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)(C1=CC=C(OC2=CC=C3C(=O)N(C(=O)C3=C2)C2=CC=C(OC3=CC=C(*)C=C3)C=C2)C=C1)C(F)(F)F,8.95,,0.55,0.084,
+Perm705,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=C)C3=CC=C4C(=C)N(*)C(=C)C5=C4C3=C(C=C5)C2=C)C=C1)C(F)(F)F,50.0,21.0,4.4,0.72,0.48
+Perm706,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=C(C=C4C(=O)N(*)C(=O)C4=C3)C2=O)C=C1)C(F)(F)F,34.3,17.6,4.98,0.943,0.638
+Perm707,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC4=C(C=C3C2=O)C(=O)N(*)C4=O)C=C1)C(F)(F)F,24.0,11.8,2.9,0.658,0.36
+Perm708,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC4C(C=C3C2=O)C(=O)N(*)C4=O)C=C1)C(F)(F)F,24.0,11.8,2.9,0.66,0.36
+Perm709,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(=O)C2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1)C(F)(F)F,16.1,4.665,1.14,0.195,0.105
+Perm710,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,46.0,18.95,5.4,0.982,0.51
+Perm711,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,47.4,19.1,5.13,0.981,0.52
+Perm712,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C=C1)C(F)(F)F,,7.33,1.67,0.305,0.216
+Perm713,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C2=CC=C3C(=O)N(*)C(=O)C3=C2)C=C1)C(F)(F)F,17.3,4.96,1.54,0.245,0.145
+Perm714,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=C(*)C=C2)C=C1)(C1=CC=C(OC2=CC=C(C=C2)N2C(=O)C3C=CC(=CC3C2=O)C(C2=CC3C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,46.0,19.0,5.4,0.98,0.51
+Perm715,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=CC(*)=C2)C=C1)(C1=CC=C(OC2=CC=CC(=C2)N2C(=O)C3=CC4=C(C=C3C2=O)C(=O)N(*)C4=O)C=C1)C(F)(F)F,19.0,6.12,1.4,0.292,0.17
+Perm716,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C(OC2=CC=CC(*)=C2)C=C1)(C1=CC=C(OC2=CC=CC(=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C=C1)C(F)(F)F,21.0,6.3,1.35,0.24,0.13
+Perm717,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC2=C(C=C1)C1=C(C2)C=C(*)C=C1)C(F)(F)F,,32.2,7.85,1.27,0.63
+Perm718,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,40.7,16.7,3.88,0.733,0.341
+Perm719,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(=C1)C(C1=CC(*)=CC=C1)(C(F)(F)F)C(F)(F)F)C(F)(F)F,,5.1,1.8,0.261,0.08
+Perm720,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(=C1)S(=O)(=O)C1=CC=CC(*)=C1)C(F)(F)F,,2.34,0.73,0.095,0.0578
+Perm721,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=CC(OC2=CC=C(*)C=C2)=C1)C(F)(F)F,23.7,6.11,1.57,0.259,0.125
+Perm722,Thermally Rearranged Polymers,FC(F)(F)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C1=CC=C2C3=NC4=C(C=CC(=C4)C4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=C(*)C=C5)N3C(=O)C2=C1)C(F)(F)F,376.0,294.0,65.0,13.0,8.1
+Perm723,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=C2C(=O)N(C(=O)C2=C1)C1=CC=C(*)C=C1)(C1=CC2=C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,107.0,62.0,12.7,2.57,1.31
+Perm724(ladder),Uncategorised,FC(F)(F)C(C1=CC=C2\C(=N\*)N(*)C(=O)C2=C1)(C1=CC=C2C(=O)N3C4=C(C=C(OC5=CC=C(*)C(*)=C5)C=C4)N=C3C2=C1)C(F)(F)F,,27.6,7.9,1.2,0.54
+Perm725,Polyimides and Polypyrrolones,FC(F)(F)C(C1=CC=CC(*)=C1)(C1=CC=CC(=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O)C(F)(F)F,,1.05,0.39,0.47,0.014
+Perm726,High Temperature Polymers,FC(F)(F)C(C1CC=C(*)C=C1)(C1=CC=C(C=C1)C1=NN=C(*)O1)C(F)(F)F,,78.0,20.0,4.0,2.79
+Perm727,Vinyl and Vinylidene Polymers,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)COC(=O)C(*)C*,300.0,520.0,135.0,54.0,57.0
+Perm728,Polyimides and Polypyrrolones,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C1=CC(=CC(*)=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,,75.05,19.7,4.49,4.195
+Perm729,Polyimides and Polypyrrolones,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C1=CC(=CC(*)=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,,17.8,4.74,0.74,0.44
+Perm730,Polyimides and Polypyrrolones,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C1=CC(=CC(*)=C1)N1C(=O)C2=CC=C(OC3=CC4=C(C=C3)C(=O)N(*)C4=O)C=C2C1=O,,11.03,2.61,0.56,0.36
+Perm731,Polynorbornenes,FC(F)(F)C1(C(*)CC(\C=C\*)C1(F)F)C(F)(F)F,,102.0,27.7,10.7,9.54
+Perm732,Polyimides and Polypyrrolones,FC(F)(F)C1=C(OC2=CC=C(C=C2)C(C2=CC=C(OC3=C(C=C(C=C3)N3C(=O)C4=C(C=C5C(=O)N(*)C(=O)C5=C4)C3=O)C(F)(F)F)C=C2)(C(F)(F)F)C(F)(F)F)C=CC(*)=C1,50.4,24.6,7.06,1.5,0.937
+Perm733,Polyimides and Polypyrrolones,FC(F)(F)C1=C(OC2=CC=C(C=C2)C(C2=CC=C(OC3=C(C=C(C=C3)N3C(=O)C4=CC=C(C=C4C3=O)C(=O)C3=CC=C4C(=O)N(*)C(=O)C4=C3)C(F)(F)F)C=C2)(C(F)(F)F)C(F)(F)F)C=CC(*)=C1,24.6,8.045,2.435,0.37,0.189
+Perm734,Polyimides and Polypyrrolones,FC(F)(F)C1=C(OC2=CC=C(C=C2)C(C2=CC=C(OC3=C(C=C(C=C3)N3C(=O)C4=CC=C(C=C4C3=O)C(C3=CC=C4C(=O)N(*)C(=O)C4=C3)(C(F)(F)F)C(F)(F)F)C(F)(F)F)C=C2)(C(F)(F)F)C(F)(F)F)C=CC(*)=C1,55.4,22.8,6.5,1.3,0.703
+Perm735,Polyimides and Polypyrrolones,FC(F)(F)C1=C(OC2=CC=C(C=C2)C(C2=CC=C(OC3=C(C=C(C=C3)N3C(=O)C4=CC=C(C=C4C3=O)C3=CC=C4C(=O)N(*)C(=O)C4=C3)C(F)(F)F)C=C2)(C(F)(F)F)C(F)(F)F)C=CC(*)=C1,30.6,9.15,3.11,0.563,0.279
+Perm736,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(*)=CC(=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,58.6,21.64,6.43,1.17,0.45
+Perm737,Polyimides_NEW,FC(F)(F)C1=CC(*)=CC=C1OC1=C(C2=C(C=CC=C2)C=C1)C1=C(OC2=C(C=C(C=C2)N2C(=O)C3=C(C=C(C=C3)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)C2=O)C(F)(F)F)C=CC2=C1C=CC=C2,36.8,25.9,4.89,0.78,0.41
+Perm738,Polyimides_NEW,FC(F)(F)C1=CC(*)=CC=C1OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)N2C(=O)C3=C(C=C(C=C3)C(C3=CC=C4C(=O)N(*)C(=O)C4=C3)(C(F)(F)F)C(F)(F)F)C2=O)C=C1,151.12,61.82,20.0,5.2,2.43
+Perm739,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1=CC(=CC(=C1)C1=CC(O*)=CC=C1OC1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1)C(F)(F)F,21.0,8.7,3.3,0.54,0.38
+Perm740,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1=CC(=CC(=C1)C1=CC(O*)=CC=C1OC1=CC=CC(*)=C1C#N)C(F)(F)F,35.0,19.0,6.6,1.12,0.83
+Perm741,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1=CC(=CC=C1)C1=CC(O*)=CC=C1OC1=CC=C(C=C1)C(=O)C1=CC=C(*)C=C1,5.1,1.5,0.38,0.051,0.041
+Perm742,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1=CC(=CC=C1)C1=CC(O*)=CC=C1OC1=CC=CC(*)=C1C#N,9.3,3.7,0.87,0.15,0.09
+Perm743,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(=O)C2=CC3C(C=C2)C(=O)N(*)C3=O)C=C1)C1=CC=C(*)C=C1,,36.07,6.24,0.95,0.94
+Perm744,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C=C1)C1=CC=C(*)C=C1,,53.09,13.46,2.06,1.34
+Perm745,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(C2=C(C=CC=C2)C2=C1C=CC=C2)C1=CC=C(OC2=CC=C(C=C2C(F)(F)F)C2=CC=C(C=C2)N2C(=O)C3=CC=C(OC4=CC5C(C=C4)C(=O)N(*)C5=O)C=C3C2=O)C=C1)C1=CC=C(*)C=C1,,25.91,7.86,1.22,1.04
+Perm746,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(N(C(=O)C2=C1C=CC=C2)C1=CC=CC=C1)C1=CC=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C3=CC4=C(C=C3C2=O)C(=O)N(*)C4=O)C(F)(F)F)C=C1)C1=CC=C(*)C=C1,,39.57,7.62,1.2,0.79
+Perm747,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(N(C(=O)C2=C1C=CC=C2)C1=CC=CC=C1)C1=CC=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(=O)C2=CC=C3C(=O)N(*)C(=O)C3=C2)C(F)(F)F)C=C1)C1=CC=C(*)C=C1,,17.09,4.33,0.83,0.62
+Perm748,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(N(C(=O)C2=C1C=CC=C2)C1=CC=CC=C1)C1=CC=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C(F)(F)F)C=C1)C1=CC=C(*)C=C1,,53.85,10.23,1.71,1.01
+Perm749,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)C1(N(C(=O)C2=C1C=CC=C2)C1=CC=CC=C1)C1=CC=C(OC2=C(C=C(C=C2)C2=CC=C(C=C2)N2C(=O)C3=CC=C(OC4=CC=C5C(=O)N(*)C(=O)C5=C4)C=C3C2=O)C(F)(F)F)C=C1)C1=CC=C(*)C=C1,,14.59,4.22,0.96,0.84
+Perm750,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O)C1=CC=C(C=C1)C1=CC(=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,33.12,15.17,2.87,1.19
+Perm751,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O)C1=CC=C(C=C1)C1=CC=C(C=C1)C1=CC(=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,36.61,17.08,3.11,1.51
+Perm752,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O)C1=CC=C(S1)C1=CC(=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,45.31,11.65,1.78,1.68
+Perm753,Polyimides and Polypyrrolones,FC(F)(F)C1=CC(=CC=C1OC1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O)C1=CC=CC(=N1)C1=CC(=C(OC2=CC=C(*)C=C2)C=C1)C(F)(F)F,,51.92,12.15,1.91,1.95
+Perm754,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1CC(CCC1OC1=CC=C(C=C1)C1(C2=CC=CC=C2C2=C1C=CC=C2)C1=CC=C(*)C=C1)C1=CC(=CN=C1)C1=CC(=C(O*)C=C1)C(F)(F)F,43.2,25.8,6.22,2.06,1.59
+Perm755,Poly(aryl ethers) and Poly(aryl ether ketones),FC(F)(F)C1CC(CCC1OC1=CC=C(C=C1)C1(C2=CC=CC=C2C2=C1C=CC=C2)C1=CC=C(*)C=C1)C1=CC=C(S1)C1=CC(=C(O*)C=C1)C(F)(F)F,55.0,35.7,8.4,1.99,1.8
+Perm756,Polyphosphazenes,FC(F)(F)COP(*)(OC1=CC=CC=C1)=NP(OC1=CC=CC=C1)(OC1=CC=CC=C1)=NP(OC1=CC=CC=C1)(OC1=CC=CC=C1)=NP(OC1=CC=CC=C1)(OC1=CC=CC=C1)=NP(OC1=CC=CC=C1)(OC1=CC=CC=C1)=N*,,72.6,10.4,3.4,9.0
+Perm757,Polyphosphazenes,FC(F)(F)COP(*)(OCC(F)(F)F)=N*,96.6,403.2,77.0,30.26,41.0
+Perm758,Poly(aryl ethers) and Poly(aryl ether ketones),FC1=C(F)C(COC(C2CCCC(C2)C(OCC2=C(F)C(F)=C(OC3=CC=C(C=C3)C(C3=CC=C(O*)C=C3)(C(F)(F)F)C(F)(F)F)C(F)=C2F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)=C(F)C(F)=C1*,28.0,12.0,3.8,0.9,0.55
+Perm759,Poly(aryl ethers) and Poly(aryl ether ketones),FC1=C(F)C(COC(C2CCCC(C2)C(OCC2=C(F)C(F)=C(OC3=CC=C(C=C3)C3=CC=C(O*)C=C3)C(F)=C2F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)=C(F)C(F)=C1*,20.0,8.2,2.5,0.61,0.34
+Perm760,Poly(aryl ethers) and Poly(aryl ether ketones),FC1=C(F)C(COC(C2CCCC(C2)C(OCC2=C(F)C(F)=C(OC3=CC=C(C=C3)N3C(=O)CCC33CCC(=O)N3C3=CC=C(O*)C=C3)C(F)=C2F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)=C(F)C(F)=C1*,21.0,7.1,2.2,0.46,0.25
+Perm761,Poly(aryl ethers) and Poly(aryl ether ketones),FC1=C(F)C(COC(C2CCCC(C2)C(OCC2=C(F)C(F)=C(OC3=CC=C(CC4=CC=C(O*)C=C4)C=C3)C(F)=C2F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)=C(F)C(F)=C1*,18.0,7.6,2.3,0.55,0.33
+Perm762,Polyamides and poly(amide-imides),FC1=C(F)C(OC2=CC=C(NC(=O)CN3C(=O)C4=CC=C(C=C4C3=O)C(*)=O)C=C2)=C(F)C(F)=C1OC1=CC=C(N*)C=C1,,1.273,0.284,0.071,0.013
+Perm763,Polyimides and Polypyrrolones,FC1=CC(*)=CC=C1CC1=C(F)C=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,,0.542,0.143,0.0203,0.0129
+Perm764,Vinyl and Vinylidene Polymers,FC1=CC=C(C=C1)C(*)C*,,17.2,4.4,0.83,1.06
+Perm765,Polynorbornenes,FCC1CC2CC1C(*)C2*,166.0,200.0,50.0,17.0,13.0
+Perm766,Thermally Rearranged Polymers,NC1=C(*)C=CC(=C1)C1=CC(N)=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC=C2C(=O)N(*)C(=O)C2=C1)(C(F)(F)F)C(F)(F)F,,138.0,34.0,5.2,
+Perm767,Polyamides and poly(amide-imides),NC1=CC(=CC=C1)N1C(=O)C2=CC=C(*C3=CC=C(C(*)=O)C(=C3)C(*)=O)C=C2C1=O,,0.203,0.0625,0.0063,
+Perm768,Uncategorised,NC1=CC(OC2=CC(NC(=O)C3=CC(=CC=C3C(O)=O)C(C3=CC=C(C(=O)N*)C(=C3)C(O)=O)(C(F)(F)F)C(F)(F)F)=C(N)C=C2)=CC=C1*,,3.69,0.97,0.17,0.087
+Perm769,Polynorbornenes,*\C=C\C1CC(*)C2C1C(=O)N(C2=O)C12CC3CC(CC(C3)C1)C2,12.8,8.39,1.59,0.5,0.58
+Perm770,Polynorbornenes,*\C=C\C1CC(*)C2C1C(=O)N(C2=O)C1=CC=CC=C1,11.0,11.44,1.44,0.31,0.54
+Perm771,Polynorbornenes,*\C=C\C1CC(*)C2C1C(=O)N(C1CCCC1)C2=O,,8.8,1.95,0.45,0.54
+Perm772,Polynorbornenes,*\C=C\C1CC(*)C2C1C(=O)N(C1CCCCC1)C2=O,16.1,13.655,2.215,0.52,0.8
+Perm773,Vinyl and Vinylidene Polymers,OC(*)C*,,1.2e-06,7e-07,,
+Perm774,Polysulfones,OC(=O)C1=C(C=CC=C1)C(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,7.22,2.25,0.441,0.0437,0.0395
+Perm775,Poly(aryl ethers) and Poly(aryl ether ketones),OC(=O)C1C=CC=CC1C(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)C(=O)C2=CC=C(*)C=C2)C=C1,7.26,1.81,0.489,0.0485,0.0415
+Perm776,Uncategorised,OC(C*)C*,,0.4,0.1,0.015,0.019
+Perm777,Various Polymers,OC(C*)CO*,0.0228,0.012,0.0038,,
+Perm778,Polyimides and Polypyrrolones,OC1=CC(=CC=C1*)C1=CC(O)=C(C=C1)N1C(=O)C2=CC=C(C=C2C1=O)C1=CC2=C(C=C1)C(=O)N(*)C2=O,,0.0313,0.0096,0.001,0.00041
+Perm779,Polyimides and Polypyrrolones,OC1=CC(CC2=CC(O)=C(C=C2)N2C(=O)C3=CC=C(C=C3C2=O)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)=CC=C1*,,4.85,1.22,0.168,0.0562
+Perm780,Vinyl and Vinylidene Polymers,OC1=CC=C(C=C1)C(*)C*,,,0.12,0.015,
+Perm781,Polyoxadiazole_NEW,OC1=CC=C(C=C1)N1C(*)=NN=C1C1=CC=C(C=C1)C(C1=CC=C(*)C=C1)(C(F)(F)F)C(F)(F)F,,268.0,,10.2,6.69
+Perm782,Polytriazole_NEW,OC1=CC=C(C=C1)N1C(*)=NN=C1C1=CC=CC(=C1)C(C1=CC(*)=CC=C1)(C(F)(F)F)C(F)(F)F,,66.3,12.5,2.37,1.41
+Perm783,Thermally Rearranged Polymers,OC1=CC=C(C=C1*)C(C1=CC(N2C(=O)C3=C(C=C(C=C3)C(C3=CC4=C(C=C3)C(=O)N(*)C4=O)(C(F)(F)F)C(F)(F)F)C2=O)=C(O)C=C1)(C(F)(F)F)C(F)(F)F,35.0,9.9,2.6,0.4,0.08
+Perm784,Thermally Rearranged Polymers,OC1=CC=C(C=C1N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC=C2C3=NC4=C(C=CC(=C4)C4=CC5=C(C=C4)N=C4N5C(=O)C5=C4C=C(*)C=C5)N3C(=O)C2=C1)(C(F)(F)F)C(F)(F)F)C(C1=CC(N2C(=O)C3=CC=C(C=C3C2=O)C(*)(C(F)(F)F)C(F)(F)F)=C(O)C=C1)(C(F)(F)F)C(F)(F)F,,15.0,3.2,0.53,
+Perm785,Polyimides_NEW,OC1=CC=C2C=C(C=CC2=C1C1=C(O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(C=C2)C(=O)C2=CC3=C(C=C2)C(=O)N(*)C3=O)C1=O,4.52,3.21,0.76,0.11,0.06
+Perm786,Polyimides_NEW,OC1=CC=C2C=C(C=CC2=C1C1=C(O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(C=C2)C(C2=CC3=C(C=C2)C(=O)N(*)C3=O)(C(F)(F)F)C(F)(F)F)C1=O,5.95,4.32,0.98,0.14,0.09
+Perm787,Polyimides_NEW,OC1=CC=C2C=C(C=CC2=C1C1=C(O)C=CC2=CC(*)=CC=C12)N1C(=O)C2=C(C=C(OC3=CC4=C(C=C3)C(=O)N(*)C4=O)C=C2)C1=O,2.72,1.87,0.35,0.05,0.03
+Perm788,Cellulosic Polymers,OC1C(O*)C(O[N+]([O-])=O)OC(OC2C(O)C(O[N+]([O-])=O)C(O*)OC2CO[N+]([O-])=O)C1O[N+]([O-])=O,2.0,,0.6,0.12,
+Perm789,Substituted Polyacetylenes,OS(=O)(=O)C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)S(O)(=O)=O,,21.0,2.5,0.28,
+Perm790,Polypropynes & Polyalkynes,[H]C(*)=C(*)C(C)(C)C,,560.0,130.0,43.0,85.0
+Perm791,Polysulfones,[H]C([H])(C1=CC=C(*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(O*)C=C2)C=C1,,4.5,1.1,0.2,0.188
+Perm792,Polysulfones,[H]C([H])(C1=CC=C(O*)C=C1)C1=CC=C(OC2=CC=C(C=C2)S(=O)(=O)C2=CC=C(*)C=C2)C=C1,10.4,4.5,1.1,0.2,0.19
+Perm793,Polyimides_NEW,[H]C1=C([H])C2([H])C3C(C(=O)N(*)C3=O)C1([H])C1C2C(=O)N(C1=O)C1=CC2=C(C=C1O)C1(CC(C)(C)C3=C1C=C(O)C(*)=C3)CC2(C)C,206.0,130.0,23.0,5.5,4.6
+Perm794,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C(C1=CC(Br)=C(O*)C(Br)=C1)(C(F)(F)F)C(F)(F)F)C(*)=O,65.0,35.6,6.75,1.07,0.597
+Perm795,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,53.5,20.4,4.84,0.705,0.567
+Perm796,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(Br)C=C(C=C1Br)C1(OC(=O)C2C=CC=CC12)C1=CC(Br)=C(O*)C(Br)=C1)C(*)=O,27.9,8.34,1.96,0.29,0.206
+Perm797,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(C)C=C(C=C1Br)C(C)(C)C1=CC(Br)=C(O*)C(C)=C1)C(*)=O,23.3,5.45,1.52,0.219,0.151
+Perm798,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(C)C=C(C=C1C)C(C)(C)C1=CC(C)=C(O*)C(C)=C1)C(*)=O,38.6,12.0,3.26,0.579,0.472
+Perm799,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(C)C=C(C=C1[H])C(C)(C)C1=CC([H])=C(O*)C(C)=C1)C(*)=O,7.79,1.24,0.4,0.0628,0.0459
+Perm800,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C(C=C(C=C1[H])C(C)(C)C1=CC([H])=C(O*)C(=C1)C(C)C)C(C)C)C(*)=O,18.9,5.16,1.64,0.273,0.305
+Perm801,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C([H])C=C(C=C1[H])C(C1=CC([H])=C(O*)C([H])=C1)(C(F)(F)F)C(F)(F)F)C(*)=O,,15.8,4.18,0.875,0.799
+Perm802,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C([H])C=C(C=C1[H])C1(C2C=CC=CC2C2C=CC=CC12)C1=CC([H])=C(O*)C([H])=C1)C(*)=O,,12.4,3.03,0.57,0.617
+Perm803,Uncategorised,[H]C1=CC(=CC(=C1)C(=O)OC1=C([H])C=C(C=C1[H])C1(OC(=O)C2=C1C=CC=C2)C1=CC([H])=C(O*)C([H])=C1)C(*)=O,14.7,6.74,1.52,0.264,0.167
+Perm804,Polyarylates,[H]C1=CC(=CC(=C1)C(=O)OC1=C([H])C=C(C=C1[H])C1(OC(=O)C2C=CC=CC12)C1=CC([H])=C(O*)C([H])=C1)C(*)=O,,6.74,1.53,0.276,0.25
+Perm805,Polyarylates,[H]C1=CC(=CC(C(C)C)=C1OC(=O)C1=CC(=CC(=C1)C(*)=O)C(C)(C)C)C(C)(C)C1=CC([H])=C(O*)C(=C1)C(C)C,41.4,16.1,5.03,1.079,1.43
+Perm806,Polyarylates,[H]C1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC(=CC=C2)C(=O)O*)C([H])=C1,,2.5,0.46,0.076,0.044
+Perm807,Polyarylates,[H]C1=CC(=CC(C)=C1O*)C(C)(C)C1=CC(C)=C(OC(=O)C2=CC=C(C=C2)C(=O)O*)C([H])=C1,,5.8,1.12,0.23,0.17
+Perm808,Polyarylates,[H]C1=CC(=CC(C)=C1OC(=O)C1=CC(=CC(=C1)C(*)=O)C(C)(C)C)C(C)(C)C1=CC([H])=C(O*)C(C)=C1,27.1,8.0,2.37,0.393,0.4
+Perm809,Polyarylates,[H]C1=CC(=CC([H])=C1O*)C(C)(C)C1=CC([H])=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C([H])=C1,41.9,24.2,5.95,1.1835,1.43
+Perm810,Polyarylates,[H]C1=CC(=CC([H])=C1O*)C(C1=CC([H])=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C([H])=C1)(C(F)(F)F)C(F)(F)F,86.7,56.9,15.7,3.72,3.47
+Perm811,Uncategorised,[H]C1=CC(=CC([H])=C1O*)C(C1=CC([H])=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C([H])=C1)(C(F)(F)F)C(F)(F)F,37.3,19.1,5.23,1.11,0.799
+Perm812,Polyarylates,[H]C1=CC(=CC([H])=C1O*)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC([H])=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C([H])=C1,63.1,36.8,9.55,1.935,2.377
+Perm813,Uncategorised,[H]C1=CC(=CC([H])=C1O*)C1(C2C=CC=CC2C2C=CC=CC12)C1=CC([H])=C(OC(=O)C2=CC=CC(=C2)C(*)=O)C([H])=C1,26.1,10.3,3.03,0.556,0.616
+Perm814,Uncategorised,[H]C1=CC(=CC([H])=C1O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC([H])=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C([H])=C1,41.3,23.8,5.6,1.06,1.16
+Perm815,Polyarylates,[H]C1=CC(=CC([H])=C1O*)C1(OC(=O)C2C=CC=CC12)C1=CC([H])=C(OC(=O)C2=CC(=CC(=C2)C(*)=O)C(C)(C)C)C([H])=C1,,23.8,5.6,1.09,1.16
+Perm816,Polyarylates,[H]C1=CC(=CC=C1OC(=O)C1=CC=C(C=C1)C(=O)O*)C1(OC(=O)C2=C1C=CC=C2)C1=CC([H])=C(O*)C=C1,,11.7,2.15,0.41,0.47
+Perm817,Polyimides_NEW,[H]C1=CC(OC2=CC=C(C=C2)C2(OC(=O)C3=CC=CC=C23)C2=CC=C(OC3=CC=C(C([H])=C3)N3C(=O)C4=C(C=C(C=C4)C(C4=CC5=C(C=C4)C(=O)N(*)C5=O)(C(F)(F)F)C(F)(F)F)C3=O)C=C2)=CC=C1*,,16.5,4.835,0.965,0.455
+Perm818,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC(F)=C(F)C=C1,11000.0,26000.0,6600.0,5100.0,12000.0
+Perm819,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC(F)=CC(F)=C1,5000.0,9200.0,2700.0,1700.0,4200.0
+Perm820,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC(F)=CC=C1,9900.0,18000.0,5900.0,4200.0,11000.0
+Perm821,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC=C(Br)C=C1,8700.0,17000.0,5000.0,3500.0,9300.0
+Perm822,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC=C(C=C1)C(C)(C)C,6300.0,11000.0,3500.0,2500.0,6600.0
+Perm823,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)C,1100.0,1900.0,470.0,210.0,550.0
+Perm824,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC=C(F)C=C1,11000.0,21000.0,6200.0,4700.0,11000.0
+Perm825,Substituted Polyacetylenes,[H]C1=CC2=C(C=C1)C1=CC=C(C=C1C2(C)C)C(*)=C(*)C1=CC=CC=C1,8100.0,17000.0,4800.0,3300.0,9100.0
+Perm826(ladder),Polymers with High Free Volume,[H]C1=CC2=C(C=C1C(C)(C)C)C1(C3=C2C=C(O*)C(O*)=C3)C2=C(C=C3OC4=C(OC3=C2)C(C#N)=C(*)C(*)=C4C#N)C2=C1C=C(C([H])=C2)C(C)(C)C,5150.0,13200.0,2310.0,815.0,1702.5
+Perm827(ladder),Polymers with High Free Volume,[H]C1=CC2=C(C=C1C)C1(C3=C(C=C([H])C(C)=C3)C3=C1C=C1OC4=C(OC1=C3)C(C#N)=C(*)C(*)=C4C#N)C1=C2C=C(O*)C(O*)=C1,4430.0,8505.0,1510.0,380.0,582.5
+Perm828(ladder),Polymers with High Free Volume,[H]C1=CC2=C(C=C1[H])C1(C3=C(C=C(C)C(C)=C3)C3=C1C=C(O*)C(O*)=C3)C1=C2C=C2OC3=C(OC2=C1)C(C#N)=C(*)C(*)=C3C#N,4415.0,7875.0,1392.5,341.0,563.0
+Perm829(ladder),Polymers with High Free Volume,[H]C1=CC2=C(C=C1[H])C1(C3=C(C=C([H])C([H])=C3)C3=C1C=C1OC4=C(OC1=C3)C(C#N)=C(*)C(*)=C4C#N)C1=C2C=C(O*)C(O*)=C1,3260.0,5630.0,953.0,213.75,317.0
+Perm830,Substituted Polyacetylenes,[H]C1=CC=C(C=C1)C(*)=C(*)C1=CC=C(C=C1)[Si](C)(C)CCCCCCCC,,170.0,34.0,11.0,
+Perm831(ladder),Polymers with High Free Volume,[H]C1=CC=C(C=C1)C1=C(C2=CC=C([H])C=C2)C(C2=CC=C3OC4=C(OC3=C2)C(C#N)=C(*)C(*)=C4C#N)=C(C2=CC=C([H])C=C2)C(C2=CC=C([H])C=C2)=C1C1=CC=C(O*)C(O*)=C1,1000.0,2390.0,340.0,107.0,192.0
+Perm832,Polyimides and Polypyrrolones,[H]C1=CC=C(C=C1)N(C1=CC=C(*)C=C1)C1=CC=C(C=C1)N1C(=O)C2=C(C=C(C=C2)C(C2=CC=C3C(=O)N(*)C(=O)C3=C2)(C(F)(F)F)C(F)(F)F)C1=O,,4.73,0.69,0.08,0.08
+Perm833,Polynorbornenes,[H]C1CC(*)CC1\C=C\*,21.0,15.4,2.8,1.5,2.5
+Perm834,Polyamides_NEW,[H]N(*)C(=O)C1=CC=C(C=C1)C(C1=CC=C(C=C1)C(=O)N([H])C1=C(C)C2=C(C=C1C)C1C3=C(C=CC=C3)C2C2=C1C=C(C)C(*)=C2C)(C(F)(F)F)C(F)(F)F,212.0,121.0,27.5,5.8,
+Perm835,Polyimides and Polypyrrolones,[H]N1C2C=CC(*)=CC2C2=C1C=CC(=C2)N1C(=O)C2=CC=C(C=C2C1=O)C(C1=CC2=C(C=C1)C(=O)N(*)C2=O)(C(F)(F)F)C(F)(F)F,58.1,17.1,4.49,0.724,0.303
+Perm836,Vinyl and Vinylidene Polymers,[O-]S(=O)(=O)C1=CC=C(C=C1)C(*)C*,10.85,4.15,0.845,0.101,0.1195
+Perm837,Polyimides_NEW,*c1cccc2c(N3C(=O)c4ccc(-c5ccc6c(c5)C(=O)N(*)C6=O)cc4C3=O)cccc12,23.1,1.548,0.437,0.025,0.017
+Perm838,Polyimides_NEW,*CC1(C)CC(N2C(=O)c3ccc(-c4ccc5c(c4)C(=O)N(*)C5=O)cc3C2=O)CC(C)(C)C1,54.5,5.25,1.199,0.165,0.113
