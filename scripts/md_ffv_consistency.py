@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the MD/FFV empirical consistency check for candidate polymers."""
+"""Analyze empirical FFV/permeability relationships for candidate polymers."""
 
 from __future__ import annotations
 
@@ -30,9 +30,8 @@ def main() -> None:
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     result.to_csv(args.output, index=False)
-    print(f"Wrote {len(result)} consistency-check rows to {args.output}")
+    print(f"Wrote {len(result)} FFV-analysis rows to {args.output}")
 
 
 if __name__ == "__main__":
     main()
-
