@@ -1,37 +1,38 @@
 # Data provenance and schema
 
-All gas permeability values are in **Barrer**. The processed modeling targets
-also include `*_log10`, defined as `log10(permeability in Barrer)`.
+All gas-permeability values are in **Barrer**. Processed modeling targets also
+include `*_log10`, defined as `log10(permeability in Barrer)`.
 
 ## Raw inputs
 
-| File | Rows | Purpose |
+| File | Rows | Description |
 |---|---:|---|
-| `raw/linear_permeability.csv` | 838 | Linear-polymer permeability source with stable `PID` values |
-| `raw/ladder_permeability.csv` | 143 | Literature-curated ladder/semi-ladder source, including source links |
-| `raw/md_ffv_index.csv` | 563 | Records with MD density/FFV metadata used to define the common analysis subset |
+| `raw/linear_permeability.csv` | 838 | Linear-polymer permeability measurements |
+| `raw/ladder_permeability.csv` | 143 | Literature-curated ladder and semi-ladder polymer measurements |
+| `raw/md_ffv_index.csv` | 563 | Polymer identifiers and molecular-dynamics metadata used by the analysis |
 
-`md_ffv_index.csv` deliberately contains `match_N2_Barrer` but no CH4 column.
-N2 is retained only as a measurement-level join key for duplicate ladder PIDs.
-This prevents the historically contaminated CH4 values from entering the
-repository while preserving a traceable match to the curated source.
+The `match_N2_Barrer` field in `md_ffv_index.csv` is a measurement-level key
+used to distinguish records that share a polymer identifier.
 
 ## Processed tables
 
-`scripts/prepare_data.py` writes `final_{linear|ladder}_data_{gas}.csv` for O2,
-N2, H2, CH4, and CO2. Each table contains:
+Running `python scripts/prepare_data.py` writes one linear and one ladder table
+for each of O2, N2, H2, CH4, and CO2. Each table contains:
 
-- `PID`, `Type`, and polymer repeat-unit `SMILES`;
-- MD density, van der Waals, and FFV metadata;
-- permeability in Barrer and its base-10 logarithm.
+- `PID`: polymer identifier;
+- `Type`: polymer class;
+- `SMILES`: repeat-unit representation;
+- `density_MD` and `density_MD_std`: molecular-dynamics density descriptors;
+- `n_repeat_vdw`, `vdw`, and `FFV`: structural and free-volume descriptors;
+- the gas permeability in Barrer;
+- the corresponding `*_log10` modeling target.
 
-The processed rows are the intersection of the relevant permeability label
-and the MD/FFV eligibility index. That selection is why Table 1 counts are
-smaller than the number of non-null measurements in the full 143-row ladder
-source.
+Rows without a measured value for the selected gas are omitted from that
+gas-specific table.
 
-The literature references for the ladder collection are listed in the
-PolyLand manuscript. The linear data originate from the gas-permeability data
-used in the cited POINT2/MSA workflow. The repository's MIT License covers the
-code, not any additional rights in third-party publications.
+## Sources and reuse
 
+The ladder-polymer literature references are listed in the PolyLand
+manuscript. The linear data originate from the gas-permeability data used in
+the cited POINT2/MSA workflow. The repository's MIT License covers the code;
+third-party data and publications remain subject to their original terms.
