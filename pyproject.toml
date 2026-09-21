@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "polyland"
 version = "0.1.0"
-description = "Reproducibility code and curated data for PolyLand ladder-polymer design"
+description = "Research code and datasets for PolyLand ladder-polymer design"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
@@ -48,4 +48,3 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
-

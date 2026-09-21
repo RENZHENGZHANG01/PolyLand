@@ -1,58 +1,34 @@
 # PolyLand
 
-Reproducibility code and curated data for **PolyLand: ML-Powered Design of
-Ladder Polymers for Gas Separation**.
+Research code and datasets for **PolyLand: ML-Powered Design of Ladder
+Polymers for Gas Separation**.
 
-PolyLand combines literature data curation, uncertainty-aware permeability
-models, template/diffusion/LLM candidate generation, model-based screening,
-and an MD-derived fractional-free-volume (FFV) consistency check. This
-repository contains the parts of that workflow for which source code and
-traceable input data were present in the archived project files:
+PolyLand provides a reproducible workflow for preparing gas-permeability
+datasets, training polymer property predictors, constructing in-context
+learning examples, and generating candidate ladder polymers. The repository
+supports five gases: O2, N2, H2, CH4, and CO2.
 
-- preparation and quality assurance of the linear/ladder permeability data;
-- exact reconstruction of manuscript Table 1;
-- QRF, MLP-D, GIN, GCN, and GREA predictive-model workflows;
-- optimization-aware in-context-learning data and prompt preparation;
-- OpenAI or Hugging Face LLM generation entry points;
-- polynomial Bayesian FFV/permeability consistency checks (degrees 1--3).
+## Features
 
-The archived project contained candidate outputs, but not the source for the
-reaction-template generator or the Graph DiT training pipeline. Those two
-generators are therefore not represented here as reproducible code. Pretrained
-checkpoints, training logs, API credentials, and large generated pools are
-also intentionally excluded.
-
-## Table 1 data correction
-
-The historical processed ladder CH4 file repeated the ladder N2 values. This
-repository does not publish that contaminated file. `scripts/prepare_data.py`
-rejoins the 53-record MD/FFV index to the literature-curated ladder source by
-`PID + SMILES + N2`, which distinguishes repeated measurements sharing a PID.
-After missing CH4 measurements are removed, the corrected ladder CH4 column
-contains 50 records:
-
-| Statistic | Linear CH4 | Ladder CH4 |
-|---|---:|---:|
-| Count | 425 | 50 |
-| Mean (Barrer) | 777 | 156 |
-| Median (Barrer) | 0.58 | 22.5 |
-| Minimum (Barrer) | 0.0018 | 0.3 |
-| Maximum (Barrer) | 35000 | 710 |
-
-An integrity check stops the build if ladder N2 and CH4 become identical
-again. The full five-gas result is stored in `results/table1_stats.csv`.
+- curated linear- and ladder-polymer permeability datasets;
+- deterministic data preparation and summary-table generation;
+- QRF, MLP-D, GIN, GCN, and GREA prediction workflows;
+- Morgan, MACCS, and polyBERT molecular representations;
+- optimization-aware in-context-learning example selection;
+- OpenAI and Hugging Face generation entry points;
+- automated data and regression tests.
 
 ## Repository layout
 
 ```text
 data/
-  raw/          Curated source tables and the MD/FFV eligibility index
-  processed/    Rebuilt per-gas linear and ladder modeling tables
-docs/           Reproducibility notes and manuscript code statement
-results/        Small, deterministic tabular outputs only
+  raw/          Curated source tables and polymer metadata
+  processed/    Per-gas modeling tables produced by the data pipeline
+docs/           Workflow and reproducibility notes
+results/        Small deterministic outputs
 scripts/        Command-line entry points
-src/polyland/   Reusable data, modeling, ICL, and FFV modules
-tests/          Data-lineage and Table 1 regression tests
+src/polyland/   Reusable data, modeling, ICL, and analysis modules
+tests/          Automated tests
 ```
 
 ## Installation
@@ -60,31 +36,43 @@ tests/          Data-lineage and Table 1 regression tests
 Python 3.10 or later is recommended.
 
 ```bash
+git clone https://github.com/RENZHENGZHANG01/PolyLand.git
+cd PolyLand
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e .
 ```
 
-Install only the optional components needed for a run:
+On Windows PowerShell, activate the environment with:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install the optional dependencies required for a particular workflow:
 
 ```bash
-# Fingerprints, QRF, ICL pairing, and FFV checks
+# Molecular fingerprints and QRF
 python -m pip install -e '.[ml]'
 
 # TensorFlow MLP-D
 python -m pip install -e '.[ml,mlp]'
 
-# GIN, GCN, and GREA through torch-molecule
+# GIN, GCN, and GREA
 python -m pip install -e '.[ml,graph]'
 
 # LLM generation clients
 python -m pip install -e '.[ml,llm]'
+
+# Development and testing tools
+python -m pip install -e '.[dev]'
 ```
 
-## Rebuild the data and Table 1
+## Quick start
 
-Run commands from the repository root:
+Run the complete data preparation and summary-table workflow from the
+repository root:
 
 ```bash
 python scripts/prepare_data.py
@@ -92,38 +80,65 @@ python scripts/build_table1.py
 python -m unittest discover -s tests -v
 ```
 
-The output of `build_table1.py` should match the manuscript table, including
-the corrected ladder CH4 values above.
+The prepared datasets are written to `data/processed/`, and the summary table
+is written to `results/table1_stats.csv`.
 
-## Predictive models
+## Data
 
-The paper uses one fixed 20% ladder holdout and compares three training sets:
+Permeability values are reported in Barrer. Each processed gas table contains
+the polymer identifier, repeat-unit SMILES, polymer class, molecular-dynamics
+metadata, the measured permeability, and its base-10 logarithm.
 
-- `linear`: linear polymers only (Li);
-- `ladder`: the remaining 80% of ladder polymers (La);
-- `hybrid`: linear polymers plus the remaining ladder polymers (Li+La).
+The ten modeling tables follow this naming convention:
 
-Example QRF and GREA runs:
-
-```bash
-python scripts/train_predictor.py --gas CO2 --training hybrid --model qrf --fingerprint Morgan
-python scripts/train_predictor.py --gas CO2 --training hybrid --model grea --n-trials 200
+```text
+data/processed/final_linear_data_<gas>.csv
+data/processed/final_ladder_data_<gas>.csv
 ```
 
-Models and holdout predictions are written below `results/models/`, which is
-git-ignored because checkpoints are large and are regenerated by the scripts.
-Permeability targets are modeled as `log10(Barrer)`.
+See [`data/README.md`](data/README.md) for column definitions and provenance.
 
-## LLM generation
+## Train a permeability predictor
 
-Prepare deterministic, similarity-ranked ICL examples for all five separation
-tasks:
+`train_predictor.py` supports three training-set configurations:
+
+- `linear`: linear polymers only;
+- `ladder`: ladder polymers only;
+- `hybrid`: linear and ladder polymers.
+
+Example QRF run for CO2 permeability:
+
+```bash
+python scripts/train_predictor.py \
+  --gas CO2 \
+  --training hybrid \
+  --model qrf \
+  --fingerprint Morgan
+```
+
+Example GREA run:
+
+```bash
+python scripts/train_predictor.py \
+  --gas CO2 \
+  --training hybrid \
+  --model grea \
+  --n-trials 200
+```
+
+Supported gases are `O2`, `N2`, `H2`, `CH4`, and `CO2`. Permeability targets
+are modeled as `log10(Barrer)`. Model artifacts and holdout predictions are
+written below `results/models/`.
+
+## Prepare ICL examples and generate candidates
+
+Create similarity-ranked in-context-learning examples:
 
 ```bash
 python scripts/prepare_icl.py --k 5 --seed 42
 ```
 
-Generate candidates using an OpenAI model:
+Generate candidates with an OpenAI model:
 
 ```bash
 export OPENAI_API_KEY=your_key_here
@@ -134,45 +149,27 @@ python scripts/generate_llm.py \
   --output results/llm/co2_ch4.csv
 ```
 
-For a Hugging Face model, use `--provider huggingface` and pass its model ID.
-Gated models may require `HUGGINGFACE_HUB_TOKEN`. Credentials are read from the
-environment and must never be committed.
+To use a Hugging Face model, set `--provider huggingface` and provide the model
+ID with `--model`. Some gated models require `HUGGINGFACE_HUB_TOKEN`.
+Credentials are read from the environment and should never be committed.
 
-## MD/FFV consistency check
+## Testing
 
-Candidate input must contain `SMILES`, `FFV`, and a chosen ML prediction column
-in log10(Barrer). For example:
+Run the test suite with:
 
 ```bash
-python scripts/md_ffv_consistency.py \
-  --candidates candidates.csv \
-  --gas CO2 \
-  --prediction-column CO2_ml_log10 \
-  --degree 2 \
-  --output results/co2_ffv_consistency.csv
+python -m unittest discover -s tests -v
 ```
 
-This calculation is a **consistency check**, not an independent validation of
-permeability: both the screened permeability and the FFV value are
-computational/model-derived.
+GitHub Actions runs the data pipeline and tests for every push and pull
+request to `main`.
 
-## Interpretation and reproducibility boundary
+## Citation
 
-The linear and ladder collections were assembled from different sources and
-with different inclusion processes. Their descriptive statistics may reflect
-curation, publication-period, sample-size, measurement-condition, and
-reporting biases. They should not be read as a controlled or causal estimate
-of the effect of ladder architecture.
+If you use PolyLand in your work, cite the accompanying manuscript. Citation
+metadata are available in [`CITATION.cff`](CITATION.cff).
 
-Random seeds and data-selection rules are explicit in the scripts. Exact
-reproduction of previously trained neural/graph models can still depend on
-hardware, dependency versions, and hyperparameter-search execution. No claim
-is made that omitted checkpoints or unavailable generator source can be
-reconstructed from this snapshot.
+## License
 
-## Citation and license
-
-Citation metadata are provided in `CITATION.cff`. Code is released under the
-MIT License; see `NOTICE` for POINT2 attribution and the separate status of
-literature-derived data.
-
+The code is released under the MIT License. See [`NOTICE`](NOTICE) for POINT2
+attribution and information about literature-derived data.
