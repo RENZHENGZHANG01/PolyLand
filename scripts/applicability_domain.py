@@ -306,11 +306,6 @@ def plot_summary(summary: pd.DataFrame, output_dir: Path) -> None:
     assert image is not None
     colorbar = fig.colorbar(image, ax=axes, fraction=0.035, pad=0.03)
     colorbar.set_label("Candidates inside applicability domain (%)")
-    fig.suptitle(
-        "Structure-based applicability domain of screened polymers\n"
-        "Morgan/Tanimoto threshold: 5th percentile of training leave-one-out nearest neighbors",
-        fontsize=12,
-    )
     fig.savefig(output_dir / "applicability_domain_summary.pdf", bbox_inches="tight")
     fig.savefig(output_dir / "applicability_domain_summary.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
