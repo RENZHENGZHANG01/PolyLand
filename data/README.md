@@ -12,6 +12,7 @@ include `*_log10`, defined as `log10(permeability in Barrer)`.
 | `raw/md_ffv_index.csv` | 563 | Polymer identifiers and molecular-dynamics metadata used by the analysis |
 | `screening/polyland_screening_candidates.csv` | 77,246 | All post-novelty-filter candidates evaluated by the five-gas ensemble screen |
 | `screening/selected_candidates.csv` | 22 | SLP identifiers and SMILES for candidates highlighted in the manuscript |
+| `processed/ad_ladder_training_structures.csv` | 178 | Unique gas-specific ladder structures in the original model-training partitions, used to reproduce the applicability-domain analysis |
 
 The `match_N2_Barrer` field in `md_ffv_index.csv` is a measurement-level key
 used to distinguish records that share a polymer identifier.
@@ -31,6 +32,11 @@ for each of O2, N2, H2, CH4, and CO2. Each table contains:
 
 Rows without a measured value for the selected gas are omitted from that
 gas-specific table.
+
+`processed/ad_ladder_training_structures.csv` records the unique ladder and
+semi-ladder structures present in the original 80% training partition for
+each gas. The applicability-domain workflow combines these entries with the
+corresponding complete linear table to construct the hybrid domain.
 
 ## Candidate screening table
 
