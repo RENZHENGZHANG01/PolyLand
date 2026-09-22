@@ -17,6 +17,8 @@ supports five gases: O2, N2, H2, CH4, and CO2.
 - optimization-aware in-context-learning example selection;
 - a complete post-novelty-filter screening table with ensemble predictions,
   selectivities, generation provenance, and selected-candidate flags;
+- structure-based applicability-domain analysis against the gas-specific
+  ladder-only and hybrid training pools;
 - OpenAI and Hugging Face generation entry points;
 - automated data and regression tests.
 
@@ -119,6 +121,23 @@ python scripts/build_screening_candidates.py \
   --selected data/screening/selected_candidates.csv \
   --output data/screening/polyland_screening_candidates.csv
 ```
+
+### Applicability domain
+
+The applicability-domain workflow compares each screened candidate with the
+structures used to train the permeability models. It uses 2048-bit Morgan
+fingerprints (radius 2), Tanimoto similarity, and a gas-specific threshold
+defined as the fifth percentile of leave-one-out nearest-neighbor similarity
+within each training pool.
+
+```bash
+python scripts/applicability_domain.py
+```
+
+The workflow evaluates ladder-only and hybrid (linear plus ladder) domains
+separately and writes candidate-level scores, selected-candidate scores,
+thresholds, summaries, and a vector figure to
+`results/applicability_domain/`.
 
 ## Train a permeability predictor
 
