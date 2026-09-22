@@ -10,6 +10,7 @@ The following entry points cover the main PolyLand workflows.
 | Prepare ICL examples | `scripts/prepare_icl.py` | `results/icl/` |
 | Generate candidates | `scripts/generate_llm.py` | User-selected CSV output |
 | Build the full screening table | `scripts/build_screening_candidates.py` | `data/screening/polyland_screening_candidates.csv` |
+| Analyze screening applicability domains | `scripts/applicability_domain.py` | `results/applicability_domain/` |
 | Analyze FFV relationships | `scripts/md_ffv_consistency.py` | User-selected CSV output |
 
 Run all commands from the repository root. Random seeds and data-selection
@@ -24,3 +25,10 @@ The screening-table builder expects `final_<gas>_results.csv` for O2, N2, H2,
 CH4, and CO2. It verifies that all five files contain the same ordered
 source/SMILES keys, that the keys are unique, and that every selected SMILES
 matches exactly one screening row before writing the combined CSV.
+
+The applicability-domain workflow uses the checked-in gas-specific ladder
+training structures together with the processed linear tables. Its cutoff is
+derived independently for every gas and training domain from the fifth
+percentile of leave-one-out nearest-neighbor Tanimoto similarities. Invalid
+candidate SMILES are retained in the candidate-level output with
+`valid_smiles=False` and are excluded from the domain-coverage denominator.
