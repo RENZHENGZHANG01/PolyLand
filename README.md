@@ -15,6 +15,8 @@ supports five gases: O2, N2, H2, CH4, and CO2.
 - QRF, MLP-D, GIN, GCN, and GREA prediction workflows;
 - Morgan, MACCS, and polyBERT molecular representations;
 - optimization-aware in-context-learning example selection;
+- a complete post-novelty-filter screening table with ensemble predictions,
+  selectivities, generation provenance, and selected-candidate flags;
 - OpenAI and Hugging Face generation entry points;
 - automated data and regression tests.
 
@@ -24,6 +26,7 @@ supports five gases: O2, N2, H2, CH4, and CO2.
 data/
   raw/          Curated source tables and polymer metadata
   processed/    Per-gas modeling tables produced by the data pipeline
+  screening/    Complete generated-candidate screening table
 docs/           Workflow and reproducibility notes
 results/        Small deterministic outputs
 scripts/        Command-line entry points
@@ -97,6 +100,25 @@ data/processed/final_ladder_data_<gas>.csv
 ```
 
 See [`data/README.md`](data/README.md) for column definitions and provenance.
+
+### Candidate screening table
+
+[`data/screening/polyland_screening_candidates.csv`](data/screening/polyland_screening_candidates.csv)
+contains all 77,246 generated candidates that passed the novelty filter and
+entered ensemble screening. It reports the five gas-permeability predictions,
+the five corresponding separation-task selectivities, generation provenance,
+and a Boolean `selected` field for the candidates highlighted in the
+manuscript. The companion `selection_id` field links highlighted rows to the
+SLP identifiers used in the figures and follow-up calculations.
+
+To rebuild the table from the five per-gas ensemble output files:
+
+```bash
+python scripts/build_screening_candidates.py \
+  --input-dir path/to/ladder_final_preds_ensemble \
+  --selected data/screening/selected_candidates.csv \
+  --output data/screening/polyland_screening_candidates.csv
+```
 
 ## Train a permeability predictor
 
