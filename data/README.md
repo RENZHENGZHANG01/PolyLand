@@ -10,6 +10,8 @@ include `*_log10`, defined as `log10(permeability in Barrer)`.
 | `raw/linear_permeability.csv` | 838 | Linear-polymer permeability measurements |
 | `raw/ladder_permeability.csv` | 143 | Literature-curated ladder and semi-ladder polymer measurements |
 | `raw/md_ffv_index.csv` | 563 | Polymer identifiers and molecular-dynamics metadata used by the analysis |
+| `screening/polyland_screening_candidates.csv` | 77,246 | All post-novelty-filter candidates evaluated by the five-gas ensemble screen |
+| `screening/selected_candidates.csv` | 22 | SLP identifiers and SMILES for candidates highlighted in the manuscript |
 
 The `match_N2_Barrer` field in `md_ffv_index.csv` is a measurement-level key
 used to distinguish records that share a polymer identifier.
@@ -29,6 +31,30 @@ for each of O2, N2, H2, CH4, and CO2. Each table contains:
 
 Rows without a measured value for the selected gas are omitted from that
 gas-specific table.
+
+## Candidate screening table
+
+`screening/polyland_screening_candidates.csv` is a flat, machine-readable
+table with one row per candidate entering the final screen. The primary fields
+are:
+
+- `candidate_id`: stable row identifier assigned by the table builder;
+- `generation_method`: `DiT`, `LLM`, or `rule-based`;
+- `SMILES`: polymer repeat-unit representation;
+- `selected`: `True` for candidates highlighted in the manuscript;
+- `selection_id`: SLP figure identifier for selected rows;
+- `<gas>_log10_Barrer_ensemble_mean`: mean of the top-five model predictions;
+- `<gas>_log10_Barrer_ensemble_sd`: standard deviation across those five point
+  predictions;
+- `<gas1>_<gas2>_selectivity`: predicted ideal selectivity computed as the
+  permeability ratio.
+
+Permeability in Barrer can be recovered as
+`10 ** <gas>_log10_Barrer_ensemble_mean`.
+
+The five separation tasks are O2/N2, H2/CH4, H2/N2, CO2/CH4, and CO2/N2.
+The ensemble standard-deviation fields quantify between-model spread; they are
+not quantile-based prediction intervals.
 
 ## Sources and reuse
 
